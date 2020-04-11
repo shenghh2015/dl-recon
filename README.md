@@ -1,2 +1,2 @@
-# dl-recon
-The recon codes that were developed for Deep learning-guided image reconstruction from incomplete data
+# DL-recon
+- backup branden's codes for DL-recon projects

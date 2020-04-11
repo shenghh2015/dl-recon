@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# I'm requesting 1 CPU, 1 GPU, and 1 hour of walltime
+
+#PBS -l nodes=1:ppn=1:gpus=1,walltime=1:00:00
+
+# Names can be helpful if you have lots of jobs
+
+#PBS -N check_nvidia_drv_ver
+
+modinfo nvidia 
+
+

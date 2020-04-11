@@ -1,0 +1,40 @@
+--------------------------------------------------------------
+Begin PBS Prologue Sat Dec  2 11:12:27 CST 2017 1512234747
+Job ID:			3756309.mgt2.cluster
+Username:		shenghuahe
+Group:			manastasio
+Nodes:			gpu21
+End PBS Prologue Sat Dec  2 11:12:28 CST 2017 1512234748
+--------------------------------------------------------------
+Listing /scratch contents...
+====================================
+CNN_generator.py
+__pycache__
+batch_files
+datasets
+generate_AD_dataset.py
+helper_functions.py
+models
+singularity-ubuntu16.04-tf1.0-gpu-python3.img
+system-matrix
+tmp
+xray
+xxx
+
+PATH:  /usr/local/NVIDIA-Linux-x86_64-367.48:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+
+LD_LIBRARY_PATH:  /usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/NVIDIA-Linux-x86_64-367.48:
+
+Device mapping:
+/job:localhost/replica:0/task:0/gpu:0 -> device: 0, name: Tesla K20Xm, pci bus id: 0000:02:00.0
+--------------------------------------------------------------
+Begin PBS Epilogue Sat Dec  2 11:12:37 CST 2017 1512234757
+Job ID:			3756309.mgt2.cluster
+Username:		shenghuahe
+Group:			manastasio
+Job Name:		run_tensorflow_img
+Limits:           	mem=4gb,neednodes=1:ppn=1:gpus=1,nodes=1:ppn=1:gpus=1,walltime=01:00:00
+Resources:		cput=00:00:00,energy_used=0,mem=0kb,vmem=0kb,walltime=00:00:07
+Nodes:	        	gpu21
+End PBS Epilogue Sat Dec  2 11:12:37 CST 2017 1512234757
+--------------------------------------------------------------

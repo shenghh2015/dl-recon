@@ -1,0 +1,463 @@
+class_name: Model
+config:
+  input_layers:
+  - [input_2, 0, 0]
+  layers:
+  - class_name: InputLayer
+    config:
+      batch_input_shape: !!python/tuple [null, 176, 176, 1]
+      input_dtype: float32
+      name: input_2
+      sparse: false
+    inbound_nodes: []
+    name: input_2
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_21
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: &id001 !!python/tuple [1, 1]
+      trainable: true
+    inbound_nodes:
+    - - [input_2, 0, 0]
+    name: convolution2d_21
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_22
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_21, 0, 0]
+    name: convolution2d_22
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_23
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_22, 0, 0]
+    name: convolution2d_23
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_24
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_23, 0, 0]
+    name: convolution2d_24
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_25
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_24, 0, 0]
+    name: convolution2d_25
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_26
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_25, 0, 0]
+    name: convolution2d_26
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_27
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_26, 0, 0]
+    name: convolution2d_27
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_28
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_27, 0, 0]
+    name: convolution2d_28
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_29
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_28, 0, 0]
+    name: convolution2d_29
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_30
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_29, 0, 0]
+    name: convolution2d_30
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_31
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_30, 0, 0]
+    name: convolution2d_31
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_32
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_31, 0, 0]
+    name: convolution2d_32
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_33
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_32, 0, 0]
+    name: convolution2d_33
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_34
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_33, 0, 0]
+    name: convolution2d_34
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_35
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_34, 0, 0]
+    name: convolution2d_35
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_36
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_35, 0, 0]
+    name: convolution2d_36
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_37
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_36, 0, 0]
+    name: convolution2d_37
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_38
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_37, 0, 0]
+    name: convolution2d_38
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: relu
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_39
+      nb_col: 3
+      nb_filter: 64
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_38, 0, 0]
+    name: convolution2d_39
+  - class_name: Cropping2D
+    config:
+      cropping: !!python/tuple
+      - !!python/tuple [20, 20]
+      - !!python/tuple [20, 20]
+      name: cropping2d_2
+      trainable: true
+    inbound_nodes:
+    - - [input_2, 0, 0]
+    name: cropping2d_2
+  - class_name: Convolution2D
+    config:
+      W_constraint: null
+      W_regularizer: null
+      activation: linear
+      activity_regularizer: null
+      b_constraint: null
+      b_regularizer: null
+      bias: true
+      border_mode: valid
+      dim_ordering: tf
+      init: glorot_uniform
+      name: convolution2d_40
+      nb_col: 3
+      nb_filter: 1
+      nb_row: 3
+      subsample: *id001
+      trainable: true
+    inbound_nodes:
+    - - [convolution2d_39, 0, 0]
+    name: convolution2d_40
+  - class_name: Merge
+    config:
+      arguments: {}
+      concat_axis: -1
+      dot_axes: -1
+      mode: sum
+      mode_type: raw
+      name: merge_2
+      output_mask: null
+      output_mask_type: raw
+      output_shape: null
+      output_shape_type: raw
+    inbound_nodes:
+    - - [cropping2d_2, 0, 0]
+      - [convolution2d_40, 0, 0]
+    name: merge_2
+  name: model_2
+  output_layers:
+  - [merge_2, 0, 0]
+keras_version: 1.2.2

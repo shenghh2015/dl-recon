@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# I'm requesting 1 CPU, 1 GPU, and 1 hour of walltime
+
+#PBS -l nodes=1:ppn=1:gpus=1,walltime=1:00:00
+
+# Names can be helpful if you have lots of jobs
+
+#PBS -N run_tensorflow_img
+
+# Assumes script and image are in the same directory
+IMG_NAME="singularity-ubuntu16.04-tf1.0-gpu-python3.img"
+
+# PBS_O_WORKDIR is the directory where qsub was exectuted.
+cd $PBS_O_WORKDIR
+
+module load singularity
+module load cuda-8.0
+
+# Bind /scratch on the cluster to /scratch within the container
+singularity exec -B /scratch:/scratch $IMG_NAME sh test_tensorflow_container.sh
+
+

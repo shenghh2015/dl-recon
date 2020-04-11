@@ -1,0 +1,44 @@
+#!/bin/bash
+
+
+# This script runs an array of jobs on the Radiology cluster for a single
+# binary for a collection of automatically generated configuration files.
+
+# Request resources for each job: 1 CPU, 1 GPU, 10 GB memory, 168 hrs. walltime
+#PBS -l nodes=1:ppn=1:gpus=1,walltime=168:00:00
+
+# Name the job
+#PBS -N looping_restart_64f_mar9
+
+# Email when the job begins and ends
+#PBS -m be
+
+# Store PBS log files in a separate directory
+#PBS -e log -o log
+
+# Request an array of worker for processing multiple jobs simultaneously
+#PBS -t 0-7
+
+
+# Assumes script and image are in the same directory
+IMG_NAME="singularity-ubuntu16.04-tf1.0-gpu-python3_VERSION2.img"
+
+# PBS_O_WORKDIR is the directory where qsub was exectuted.
+cd $PBS_O_WORKDIR
+
+module load singularity
+module load cuda-8.0
+
+# mar 7
+# py_commands=("python3 train3_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 2000 --inter_epochs 400 --num_loop 0 --lr .001 " "python3 train3_projection_cnn.py --nb_filters=128 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 64 --final_act True --dataset 13 --init_epochs 2000 --inter_epochs 400 --num_loop 0 --lr .001" "python3 train3_projection_cnn.py --nb_filters=256 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 32 --final_act True --dataset 13 --init_epochs 2000 --inter_epochs 400 --num_loop 0 --lr .001 " "python3 train3_projection_cnn.py --nb_filters=128 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 20 --final_act True --dataset 13 --init_epochs 2000 --inter_epochs 400 --num_loop 0 --lr .001  --longer 2" "python3 train3_projection_cnn.py --nb_filters=512 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 16 --final_act True --dataset 13 --init_epochs 2000 --inter_epochs 400 --num_loop 0 --lr .001 " "python3 train3_projection_cnn.py --nb_filters=128 --f_dim1 12 --f_dim2 3 --f_dim3 10 --loss mse --batch_size 16 --final_act True --dataset 13 --init_epochs 2000 --inter_epochs 400 --num_loop 0 --lr .001 ")
+
+# mar 9
+py_commands=("python3 train4_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 400 --inter_epochs 50 --num_loop 5 --lr .0005 --lower_learning_rate True --DA_Lr_decrease 1" "python3 train4_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 400 --inter_epochs 50 --num_loop 5 --lr .0005 --lower_learning_rate False --DA_Lr_decrease 1 " "python3 train4_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 400 --inter_epochs 50 --num_loop 5 --lr .0005 --lower_learning_rate True --DA_Lr_decrease 1" "python3 train4_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 400 --inter_epochs 100 --num_loop 5 --lr .0005 --lower_learning_rate False --DA_Lr_decrease .1" "python3 train4_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 400 --inter_epochs 100 --num_loop 5 --lr .0005 --lower_learning_rate True --DA_Lr_decrease .1" "python3 train4_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 400 --inter_epochs 100 --num_loop 10 --lr .0005 --lower_learning_rate False --DA_Lr_decrease 1" "python3 train4_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 400 --inter_epochs 100 --num_loop 10 --lr .0005 --lower_learning_rate False --DA_Lr_decrease 1" "python3 train4_projection_cnn.py --nb_filters=64 --f_dim1 16 --f_dim2 1 --f_dim3 8 --loss mse --batch_size 128 --final_act True --dataset 13 --init_epochs 400 --inter_epochs 300 --num_loop 10 --lr .0005 --lower_learning_rate True --DA_Lr_decrease 1")
+
+# Bind /scratch on the cluster to /scratch within the container
+echo "PBS_ARRAYID:" $PBS_ARRAYID
+singularity exec -B /scratch:/scratch $IMG_NAME ${py_commands[$PBS_ARRAYID]}
+
+
+
+

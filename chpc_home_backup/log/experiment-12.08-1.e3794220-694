@@ -1,0 +1,23 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+Using TensorFlow backend.
+/usr/local/lib/python3.5/dist-packages/keras/engine/topology.py:1253: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+  return cls(**config)
+Traceback (most recent call last):
+  File "generate_AD_dataset.py", line 49, in <module>
+    model_just_weights = hf.load_trained_CNN(load_weights=True,name=name+'/best_simple',folder='')
+  File "/scratch/shenghuahe/helper_functions.py", line 50, in load_trained_CNN
+    loaded_model.load_weights(model_name+".h5")
+  File "/usr/local/lib/python3.5/dist-packages/keras/engine/topology.py", line 2616, in load_weights
+    f = h5py.File(filepath, mode='r')
+  File "/usr/local/lib/python3.5/dist-packages/h5py/_hl/files.py", line 269, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/usr/local/lib/python3.5/dist-packages/h5py/_hl/files.py", line 99, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'models/experiment-12.08-1//best_simple.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

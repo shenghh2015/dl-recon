@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1,walltime=03:59:00
+#PBS -N experiment-11.231
+#PBS -e log -o log
+#PBS -t 0-1000
+
+IMG_NAME="singularity-ubuntu16.04-tf1.0-gpu-python3.img"
+cd /scratch/shenghuahe 
+module load singularity
+module load cuda-8.0
+echo "PBS_ARRAYID:" $PBS_ARRAYID
+singularity exec -B /scratch:/scratch $IMG_NAME python3 generate_AD_dataset.py --dataset dataset_60D_noIC --depth 10 --nb_filters 16 --model_folder models/experiment-11.231/ --save_dir datasets/vexperiment-11.231_AD/ --num_add 10 --theta 60 --residualNet True --tmp_save $PBS_ARRAYID --TVConstraint 0
+

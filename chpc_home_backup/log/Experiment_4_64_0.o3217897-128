@@ -1,0 +1,1744 @@
+--------------------------------------------------------------
+Begin PBS Prologue Wed Aug 16 10:30:46 CDT 2017 1502897446
+Job ID:			3217897[128].mgt2.cluster
+Username:		shenghuahe
+Group:			manastasio
+Nodes:			gpu06
+End PBS Prologue Wed Aug 16 10:30:46 CDT 2017 1502897446
+--------------------------------------------------------------
+PBS_ARRAYID: 128
+Namespace(TVConstraint=0, dataset='dataset_v5_100D_noIC_Noise', depth=20, dimension=256, f_dim1=16, f_dim2=1, f_dim3=8, model_folder='models/Experiment_4_64_0/', nb_filters=64, num_add=10, num_stacks=1, residualNet=True, save_dir='datasets/vExperiment_4_64_0_AD/', theta=100, tmp_save=128)
+Loaded model from disk
+Stopping rule loss: 5.89785337448
+projecting!
+On iteration 0. mse: 0.0230496, rel_cost_diff: 0.310044754115,PSNR:16.373366691359287
+mse, projection: 0.0230531
+Post projection 1, . mse: 0.0230531, cost: 6.16598701477,PSNR:16.372708350177486
+On iteration 1. mse: 0.0230531, cost: 6.16598701477,PSNR:16.372708350177486
+On iteration 101. mse: 0.0140458, cost: 1.01019465923,PSNR:18.524539204543665
+On iteration 201. mse: 0.0107431, cost: 0.489893466234,PSNR:19.6886898076268
+On iteration 301. mse: 0.00902681, cost: 0.273186564445,PSNR:20.444657181124093
+On iteration 401. mse: 0.00802204, cost: 0.167078733444,PSNR:20.957152707138516
+On iteration 501. mse: 0.00738251, cost: 0.109986007214,PSNR:21.317962438911504
+On iteration 601. mse: 0.00694653, cost: 0.0770406126976,PSNR:21.58231955833682
+On iteration 701. mse: 0.00663182, cost: 0.0569334477186,PSNR:21.783675445107264
+On iteration 801. mse: 0.00639315, cost: 0.0440936684608,PSNR:21.9428507679444
+On iteration 901. mse: 0.00620417, cost: 0.0355667620897,PSNR:22.073161679958915
+On iteration 1001. mse: 0.00604905, cost: 0.029687659815,PSNR:22.1831252350618
+On iteration 1101. mse: 0.00591785, cost: 0.0254995208234,PSNR:22.278361190972944
+On iteration 1201. mse: 0.00580403, cost: 0.0224268101156,PSNR:22.362702997816793
+On iteration 1301. mse: 0.00570327, cost: 0.0201079621911,PSNR:22.438759992700824
+projecting!
+On iteration 1304. mse: 0.00569947, rel_cost_diff: 0.000999620073688,PSNR:22.441658340937938
+Change in mse between projections is : 0.0150866
+mse, projection: 0.00569986
+Post projection 2, . mse: 0.00569986, cost: 0.0233427211642,PSNR:22.441355681530176
+projecting!
+On iteration 1320. mse: 0.00568456, rel_cost_diff: 0.000990994583596,PSNR:22.453033816595923
+Change in mse between projections is : 6.10657e-08
+mse, projection: 0.00568496
+Post projection 3, . mse: 0.00568496, cost: 0.0230336468667,PSNR:22.452722892977135
+projecting!
+On iteration 1334. mse: 0.00567178, rel_cost_diff: 0.000994422727166,PSNR:22.46280580534912
+Change in mse between projections is : 4.45476e-08
+mse, projection: 0.0056722
+Post projection 4, . mse: 0.0056722, cost: 0.0227727517486,PSNR:22.462487407177527
+projecting!
+On iteration 1347. mse: 0.00566012, rel_cost_diff: 0.000991818106629,PSNR:22.47174223540327
+Change in mse between projections is : 3.69123e-08
+mse, projection: 0.00566054
+Post projection 5, . mse: 0.00566054, cost: 0.0225377865136,PSNR:22.471418536906995
+projecting!
+On iteration 1359. mse: 0.00564952, rel_cost_diff: 0.000999471490848,PSNR:22.47988120914745
+Change in mse between projections is : 3.04399e-08
+mse, projection: 0.00564995
+Post projection 6, . mse: 0.00564995, cost: 0.0223281569779,PSNR:22.479551892316103
+projecting!
+On iteration 1371. mse: 0.00563907, rel_cost_diff: 0.000989852328859,PSNR:22.487923929105538
+Change in mse between projections is : 2.94186e-08
+mse, projection: 0.0056395
+Post projection 7, . mse: 0.0056395, cost: 0.022120995447,PSNR:22.48759041584101
+projecting!
+On iteration 1383. mse: 0.00562875, rel_cost_diff: 0.000986928629625,PSNR:22.49587845427278
+Change in mse between projections is : 2.85152e-08
+mse, projection: 0.00562919
+Post projection 8, . mse: 0.00562919, cost: 0.0219176672399,PSNR:22.495541096271175
+projecting!
+On iteration 1394. mse: 0.00561941, rel_cost_diff: 0.000996328459349,PSNR:22.503091031845102
+Change in mse between projections is : 2.33451e-08
+mse, projection: 0.00561985
+Post projection 9, . mse: 0.00561985, cost: 0.021740494296,PSNR:22.502749514563163
+On iteration 1401. mse: 0.00561441, cost: 0.0183484796435,PSNR:22.506960797631486
+projecting!
+On iteration 1405. mse: 0.00561018, rel_cost_diff: 0.000998473403371,PSNR:22.510232697156624
+Change in mse between projections is : 2.26972e-08
+mse, projection: 0.00561063
+Post projection 10, . mse: 0.00561063, cost: 0.021564822644,PSNR:22.509887013347946
+projecting!
+On iteration 1416. mse: 0.00560105, rel_cost_diff: 0.000986308708238,PSNR:22.51730705186678
+Change in mse between projections is : 2.21024e-08
+mse, projection: 0.0056015
+Post projection 11, . mse: 0.0056015, cost: 0.0213922299445,PSNR:22.516958638311305
+projecting!
+On iteration 1427. mse: 0.00559201, rel_cost_diff: 0.000979618060194,PSNR:22.524317002254826
+Change in mse between projections is : 2.1534e-08
+mse, projection: 0.00559247
+Post projection 12, . mse: 0.00559247, cost: 0.0212229974568,PSNR:22.523965856179778
+projecting!
+On iteration 1438. mse: 0.00558307, rel_cost_diff: 0.000970696992748,PSNR:22.531266926346323
+Change in mse between projections is : 2.10048e-08
+mse, projection: 0.00558353
+Post projection 13, . mse: 0.00558353, cost: 0.0210573486984,PSNR:22.530911958132265
+projecting!
+On iteration 1448. mse: 0.00557503, rel_cost_diff: 0.000990608356167,PSNR:22.537524198962608
+Change in mse between projections is : 1.69907e-08
+mse, projection: 0.00557549
+Post projection 14, . mse: 0.00557549, cost: 0.0209161490202,PSNR:22.537166179927965
+projecting!
+On iteration 1458. mse: 0.00556708, rel_cost_diff: 0.000991255259684,PSNR:22.543729107249884
+Change in mse between projections is : 1.65832e-08
+mse, projection: 0.00556754
+Post projection 15, . mse: 0.00556754, cost: 0.0207749828696,PSNR:22.543367670452646
+projecting!
+On iteration 1468. mse: 0.00555919, rel_cost_diff: 0.000991546406498,PSNR:22.549884687640564
+Change in mse between projections is : 1.62074e-08
+mse, projection: 0.00555966
+Post projection 16, . mse: 0.00555966, cost: 0.0206357017159,PSNR:22.549520191939017
+projecting!
+On iteration 1478. mse: 0.00555138, rel_cost_diff: 0.000982913066944,PSNR:22.555991446139068
+Change in mse between projections is : 1.58504e-08
+mse, projection: 0.00555185
+Post projection 17, . mse: 0.00555185, cost: 0.0204986538738,PSNR:22.55562461624596
+projecting!
+On iteration 1488. mse: 0.00554364, rel_cost_diff: 0.000978570014417,PSNR:22.56205317710535
+Change in mse between projections is : 1.54988e-08
+mse, projection: 0.00554411
+Post projection 18, . mse: 0.00554411, cost: 0.0203640516847,PSNR:22.561683281455778
+projecting!
+On iteration 1498. mse: 0.00553596, rel_cost_diff: 0.000968954785332,PSNR:22.568070045077565
+Change in mse between projections is : 1.51714e-08
+mse, projection: 0.00553644
+Post projection 19, . mse: 0.00553644, cost: 0.0202318616211,PSNR:22.567697810234932
+On iteration 1501. mse: 0.00553455, cost: 0.017099654302,PSNR:22.56917999840185
+projecting!
+On iteration 1508. mse: 0.00552835, rel_cost_diff: 0.000967680189774,PSNR:22.574043680694732
+Change in mse between projections is : 1.48594e-08
+mse, projection: 0.00552883
+Post projection 20, . mse: 0.00552883, cost: 0.0201021116227,PSNR:22.57366910461377
+projecting!
+On iteration 1518. mse: 0.00552081, rel_cost_diff: 0.0009584401409,PSNR:22.579974626493595
+Change in mse between projections is : 1.45593e-08
+mse, projection: 0.00552129
+Post projection 21, . mse: 0.00552129, cost: 0.0199745371938,PSNR:22.579597707140536
+projecting!
+On iteration 1528. mse: 0.00551332, rel_cost_diff: 0.000952401477238,PSNR:22.58586526380239
+Change in mse between projections is : 1.42627e-08
+mse, projection: 0.00551381
+Post projection 22, . mse: 0.00551381, cost: 0.0198493842036,PSNR:22.585485265437875
+projecting!
+On iteration 1538. mse: 0.0055059, rel_cost_diff: 0.000949645931619,PSNR:22.591715417408924
+Change in mse between projections is : 1.3978e-08
+mse, projection: 0.00550639
+Post projection 23, . mse: 0.00550639, cost: 0.0197265259922,PSNR:22.591333437757886
+projecting!
+On iteration 1547. mse: 0.00549929, rel_cost_diff: 0.000995176617409,PSNR:22.59693537586111
+Change in mse between projections is : 1.11398e-08
+mse, projection: 0.00549978
+Post projection 24, . mse: 0.00549978, cost: 0.0196263752878,PSNR:22.59654999512959
+projecting!
+On iteration 1556. mse: 0.00549273, rel_cost_diff: 0.000998259196141,PSNR:22.60211890624617
+Change in mse between projections is : 1.09125e-08
+mse, projection: 0.00549322
+Post projection 25, . mse: 0.00549322, cost: 0.0195243470371,PSNR:22.601730856374115
+projecting!
+On iteration 1565. mse: 0.00548622, rel_cost_diff: 0.000997511286462,PSNR:22.607267344984518
+Change in mse between projections is : 1.07072e-08
+mse, projection: 0.00548671
+Post projection 26, . mse: 0.00548671, cost: 0.0194227378815,PSNR:22.606877360482468
+projecting!
+On iteration 1574. mse: 0.00547976, rel_cost_diff: 0.000997238718708,PSNR:22.6123838813129
+Change in mse between projections is : 1.05031e-08
+mse, projection: 0.00548026
+Post projection 27, . mse: 0.00548026, cost: 0.0193222109228,PSNR:22.611990853947535
+projecting!
+On iteration 1583. mse: 0.00547335, rel_cost_diff: 0.000996636062081,PSNR:22.6174683951629
+Change in mse between projections is : 1.03211e-08
+mse, projection: 0.00547385
+Post projection 28, . mse: 0.00547385, cost: 0.019222965464,PSNR:22.61707306013487
+projecting!
+On iteration 1592. mse: 0.00546698, rel_cost_diff: 0.000994529618423,PSNR:22.62252187664149
+Change in mse between projections is : 1.01383e-08
+mse, projection: 0.00546748
+Post projection 29, . mse: 0.00546748, cost: 0.019124828279,PSNR:22.62212423192601
+On iteration 1601. mse: 0.00546138, cost: 0.0158208794892,PSNR:22.6269761351872
+projecting!
+On iteration 1601. mse: 0.00546066, rel_cost_diff: 0.000989467288065,PSNR:22.627546432459816
+Change in mse between projections is : 9.95684e-09
+mse, projection: 0.00546117
+Post projection 30, . mse: 0.00546117, cost: 0.0190283004194,PSNR:22.627146475879478
+projecting!
+On iteration 1610. mse: 0.00545439, rel_cost_diff: 0.000993146706935,PSNR:22.632541584536856
+Change in mse between projections is : 9.785e-09
+mse, projection: 0.00545489
+Post projection 31, . mse: 0.00545489, cost: 0.0189330857247,PSNR:22.63213968473579
+Stopping rule loss: 0.90783149004
+projecting!
+On iteration 0. mse: 0.00856129, rel_cost_diff: 0.127373228804,PSNR:20.674607983023307
+mse, projection: 0.00856252
+Post projection 1, . mse: 0.00856252, cost: 0.998366355896,PSNR:20.673982991921875
+On iteration 1. mse: 0.00856252, cost: 0.998366355896,PSNR:20.673982991921875
+On iteration 101. mse: 0.00601133, cost: 0.328139454126,PSNR:22.210293588028662
+On iteration 201. mse: 0.00487276, cost: 0.177043691278,PSNR:23.122245394966466
+On iteration 301. mse: 0.004218, cost: 0.109034344554,PSNR:23.748935697402487
+On iteration 401. mse: 0.00379831, cost: 0.0730802640319,PSNR:24.204095459837326
+On iteration 501. mse: 0.00350916, cost: 0.0521638058126,PSNR:24.54797216868149
+On iteration 601. mse: 0.00329923, cost: 0.0391371101141,PSNR:24.815869767724493
+On iteration 701. mse: 0.00314037, cost: 0.0305865965784,PSNR:25.030193877126706
+On iteration 801. mse: 0.003016, cost: 0.0247429087758,PSNR:25.205680044936635
+On iteration 901. mse: 0.00291584, cost: 0.0206006802619,PSNR:25.352363605589296
+On iteration 1001. mse: 0.00283327, cost: 0.0175703801215,PSNR:25.4771135844856
+On iteration 1101. mse: 0.00276387, cost: 0.0152919646353,PSNR:25.584825439423486
+On iteration 1201. mse: 0.00270458, cost: 0.0135370818898,PSNR:25.67900678153927
+On iteration 1301. mse: 0.00265322, cost: 0.0121521260589,PSNR:25.762271236757826
+projecting!
+On iteration 1314. mse: 0.00264657, rel_cost_diff: 0.000997482005022,PSNR:25.77317401653922
+Change in mse between projections is : 0.00468958
+mse, projection: 0.00264741
+Post projection 2, . mse: 0.00264741, cost: 0.0135697163641,PSNR:25.771787327315906
+projecting!
+On iteration 1330. mse: 0.00263981, rel_cost_diff: 0.000999060204741,PSNR:25.784279668315158
+Change in mse between projections is : 3.36309e-08
+mse, projection: 0.00264065
+Post projection 3, . mse: 0.00264065, cost: 0.0133830625564,PSNR:25.782890194970605
+projecting!
+On iteration 1344. mse: 0.0026341, rel_cost_diff: 0.000995971192612,PSNR:25.793669875167158
+Change in mse between projections is : 2.44137e-08
+mse, projection: 0.00263495
+Post projection 4, . mse: 0.00263495, cost: 0.0132264308631,PSNR:25.792277394769897
+projecting!
+On iteration 1357. mse: 0.00262896, rel_cost_diff: 0.000995049497344,PSNR:25.802159148650166
+Change in mse between projections is : 2.01705e-08
+mse, projection: 0.0026298
+Post projection 5, . mse: 0.0026298, cost: 0.0130859371275,PSNR:25.800765097620907
+projecting!
+On iteration 1370. mse: 0.00262391, rel_cost_diff: 0.000987398159229,PSNR:25.81051321116624
+Change in mse between projections is : 1.95185e-08
+mse, projection: 0.00262475
+Post projection 6, . mse: 0.00262475, cost: 0.0129482997581,PSNR:25.809118017376626
+projecting!
+On iteration 1382. mse: 0.00261938, rel_cost_diff: 0.000993717582918,PSNR:25.818020114870464
+Change in mse between projections is : 1.59829e-08
+mse, projection: 0.00262022
+Post projection 7, . mse: 0.00262022, cost: 0.0128264948726,PSNR:25.816622893662142
+projecting!
+On iteration 1394. mse: 0.00261492, rel_cost_diff: 0.000983577165986,PSNR:25.825419753722688
+Change in mse between projections is : 1.5527e-08
+mse, projection: 0.00261576
+Post projection 8, . mse: 0.00261576, cost: 0.012706852518,PSNR:25.824022083084806
+On iteration 1401. mse: 0.00261307, cost: 0.0111215719953,PSNR:25.828492343691863
+projecting!
+On iteration 1406. mse: 0.00261053, rel_cost_diff: 0.000970857336068,PSNR:25.83271659196774
+Change in mse between projections is : 1.51085e-08
+mse, projection: 0.00261137
+Post projection 9, . mse: 0.00261137, cost: 0.0125897312537,PSNR:25.83131773308142
+projecting!
+On iteration 1417. mse: 0.00260662, rel_cost_diff: 0.000993882439704,PSNR:25.8392206940335
+Change in mse between projections is : 1.22227e-08
+mse, projection: 0.00260746
+Post projection 10, . mse: 0.00260746, cost: 0.0124873975292,PSNR:25.837820126748735
+projecting!
+On iteration 1428. mse: 0.00260277, rel_cost_diff: 0.000986117828684,PSNR:25.84564364192664
+Change in mse between projections is : 1.19172e-08
+mse, projection: 0.00260361
+Post projection 11, . mse: 0.00260361, cost: 0.0123862791806,PSNR:25.844243332327423
+projecting!
+On iteration 1439. mse: 0.00259897, rel_cost_diff: 0.000976899569965,PSNR:25.851988173231717
+Change in mse between projections is : 1.16315e-08
+mse, projection: 0.00259981
+Post projection 12, . mse: 0.00259981, cost: 0.0122870020568,PSNR:25.850586205720866
+projecting!
+On iteration 1450. mse: 0.00259522, rel_cost_diff: 0.000972394485861,PSNR:25.858253929955637
+Change in mse between projections is : 1.1361e-08
+mse, projection: 0.00259606
+Post projection 13, . mse: 0.00259606, cost: 0.012189604342,PSNR:25.85685227564348
+projecting!
+On iteration 1461. mse: 0.00259153, rel_cost_diff: 0.000966836121849,PSNR:25.864443678803987
+Change in mse between projections is : 1.11008e-08
+mse, projection: 0.00259236
+Post projection 14, . mse: 0.00259236, cost: 0.0120940906927,PSNR:25.863041975980636
+projecting!
+On iteration 1471. mse: 0.00258827, rel_cost_diff: 0.000998469232495,PSNR:25.869901090233082
+Change in mse between projections is : 8.83132e-09
+mse, projection: 0.00258911
+Post projection 15, . mse: 0.00258911, cost: 0.0120123038068,PSNR:25.868497625185935
+projecting!
+On iteration 1481. mse: 0.00258506, rel_cost_diff: 0.000999994374529,PSNR:25.875300043945145
+Change in mse between projections is : 8.63807e-09
+mse, projection: 0.00258589
+Post projection 16, . mse: 0.00258589, cost: 0.0119306910783,PSNR:25.873895615437853
+projecting!
+On iteration 1491. mse: 0.00258188, rel_cost_diff: 0.000991057992857,PSNR:25.880639529876873
+Change in mse between projections is : 8.45363e-09
+mse, projection: 0.00258271
+Post projection 17, . mse: 0.00258271, cost: 0.0118503877893,PSNR:25.87923533146844
+On iteration 1501. mse: 0.00257912, cost: 0.0102913407609,PSNR:25.88527903929048
+projecting!
+On iteration 1501. mse: 0.00257874, rel_cost_diff: 0.000986742878883,PSNR:25.88592206502316
+Change in mse between projections is : 8.27566e-09
+mse, projection: 0.00257958
+Post projection 18, . mse: 0.00257958, cost: 0.0117713464424,PSNR:25.884517333830356
+projecting!
+On iteration 1511. mse: 0.00257564, rel_cost_diff: 0.000979030037758,PSNR:25.891147040770058
+Change in mse between projections is : 8.1043e-09
+mse, projection: 0.00257647
+Post projection 19, . mse: 0.00257647, cost: 0.0116937123239,PSNR:25.889742973586266
+projecting!
+On iteration 1521. mse: 0.00257258, rel_cost_diff: 0.000976220528282,PSNR:25.896317778936112
+Change in mse between projections is : 7.94025e-09
+mse, projection: 0.00257341
+Post projection 20, . mse: 0.00257341, cost: 0.0116174090654,PSNR:25.894912432266413
+projecting!
+On iteration 1531. mse: 0.00256955, rel_cost_diff: 0.00096223200086,PSNR:25.901433684585605
+Change in mse between projections is : 7.78339e-09
+mse, projection: 0.00257038
+Post projection 21, . mse: 0.00257038, cost: 0.0115423845127,PSNR:25.90002864870502
+projecting!
+On iteration 1541. mse: 0.00256655, rel_cost_diff: 0.000960319758914,PSNR:25.90649731434968
+Change in mse between projections is : 7.63033e-09
+mse, projection: 0.00256738
+Post projection 22, . mse: 0.00256738, cost: 0.0114687029272,PSNR:25.905091821143614
+projecting!
+On iteration 1551. mse: 0.00256359, rel_cost_diff: 0.000952911329744,PSNR:25.91150887259633
+Change in mse between projections is : 7.47628e-09
+mse, projection: 0.00256442
+Post projection 23, . mse: 0.00256442, cost: 0.0113962292671,PSNR:25.91010293976411
+projecting!
+On iteration 1561. mse: 0.00256067, rel_cost_diff: 0.000950756046418,PSNR:25.916469356721812
+Change in mse between projections is : 7.32938e-09
+mse, projection: 0.0025615
+Post projection 24, . mse: 0.0025615, cost: 0.0113250967115,PSNR:25.91506418593187
+projecting!
+On iteration 1571. mse: 0.00255777, rel_cost_diff: 0.000943606654056,PSNR:25.921380561596866
+Change in mse between projections is : 7.18506e-09
+mse, projection: 0.0025586
+Post projection 25, . mse: 0.0025586, cost: 0.0112551478669,PSNR:25.919974986746336
+projecting!
+On iteration 1581. mse: 0.00255491, rel_cost_diff: 0.00093826345057,PSNR:25.92624231346558
+Change in mse between projections is : 7.04879e-09
+mse, projection: 0.00255574
+Post projection 26, . mse: 0.00255574, cost: 0.0111864730716,PSNR:25.924837142740426
+projecting!
+On iteration 1591. mse: 0.00255208, rel_cost_diff: 0.000933798461965,PSNR:25.931056420935693
+Change in mse between projections is : 6.90965e-09
+mse, projection: 0.00255291
+Post projection 27, . mse: 0.00255291, cost: 0.0111189205199,PSNR:25.92965088024068
+projecting!
+On iteration 1600. mse: 0.00254963, rel_cost_diff: 0.000994282945624,PSNR:25.935232545282403
+Change in mse between projections is : 5.36392e-09
+mse, projection: 0.00255045
+Post projection 28, . mse: 0.00255045, cost: 0.0110634751618,PSNR:25.933826445539076
+On iteration 1601. mse: 0.00255045, cost: 0.0110634751618,PSNR:25.933826445539076
+projecting!
+On iteration 1609. mse: 0.0025472, rel_cost_diff: 0.000999852814039,PSNR:25.93937299165364
+Change in mse between projections is : 5.26452e-09
+mse, projection: 0.00254802
+Post projection 29, . mse: 0.00254802, cost: 0.0110071077943,PSNR:25.937966741486264
+projecting!
+On iteration 1618. mse: 0.00254479, rel_cost_diff: 0.000996996588126,PSNR:25.943476462044725
+Change in mse between projections is : 5.16665e-09
+mse, projection: 0.00254562
+Post projection 30, . mse: 0.00254562, cost: 0.0109513103962,PSNR:25.94206967719724
+projecting!
+On iteration 1627. mse: 0.00254241, rel_cost_diff: 0.000996380401359,PSNR:25.947542450106408
+Change in mse between projections is : 5.07836e-09
+mse, projection: 0.00254323
+Post projection 31, . mse: 0.00254323, cost: 0.0108962282538,PSNR:25.946135540560768
+Stopping rule loss: 0.710761785507
+projecting!
+On iteration 0. mse: 0.00568472, rel_cost_diff: 0.163564173703,PSNR:22.45291036942833
+mse, projection: 0.00568528
+Post projection 1, . mse: 0.00568528, cost: 0.803464412689,PSNR:22.45247886554536
+On iteration 1. mse: 0.00568528, cost: 0.803464412689,PSNR:22.45247886554536
+On iteration 101. mse: 0.00371174, cost: 0.249711304903,PSNR:24.30422286979299
+On iteration 201. mse: 0.00285376, cost: 0.131969749928,PSNR:25.445829388449972
+On iteration 301. mse: 0.00237145, cost: 0.0790389925241,PSNR:26.249868887081274
+On iteration 401. mse: 0.00207101, cost: 0.0512389875948,PSNR:26.838168383110744
+On iteration 501. mse: 0.00187074, cost: 0.0352617911994,PSNR:27.279858713856278
+On iteration 601. mse: 0.00173011, cost: 0.0254807248712,PSNR:27.619253700589002
+On iteration 701. mse: 0.00162705, cost: 0.0191987417638,PSNR:27.88599724683872
+On iteration 801. mse: 0.00154877, cost: 0.0149995507672,PSNR:28.100142148183288
+On iteration 901. mse: 0.00148746, cost: 0.0120981056243,PSNR:28.27553960165861
+On iteration 1001. mse: 0.00143817, cost: 0.0100326258689,PSNR:28.42190556370504
+On iteration 1101. mse: 0.00139761, cost: 0.00852061901242,PSNR:28.546146693055622
+On iteration 1201. mse: 0.00136358, cost: 0.00738504622132,PSNR:28.653186361633196
+On iteration 1301. mse: 0.00133455, cost: 0.00651332037523,PSNR:28.74663642951866
+On iteration 1401. mse: 0.00130942, cost: 0.00582965184003,PSNR:28.82919723116074
+projecting!
+On iteration 1435. mse: 0.00130139, rel_cost_diff: 0.000998065131201,PSNR:28.855909410874897
+Change in mse between projections is : 0.00369468
+mse, projection: 0.00130164
+Post projection 2, . mse: 0.00130164, cost: 0.00647354871035,PSNR:28.855097143865894
+projecting!
+On iteration 1450. mse: 0.00129823, rel_cost_diff: 0.000998065198525,PSNR:28.866493634363106
+Change in mse between projections is : 1.54719e-08
+mse, projection: 0.00129847
+Post projection 3, . mse: 0.00129847, cost: 0.00639330968261,PSNR:28.86566887256867
+projecting!
+On iteration 1464. mse: 0.00129535, rel_cost_diff: 0.000992776002967,PSNR:28.876145400509014
+Change in mse between projections is : 1.28102e-08
+mse, projection: 0.00129559
+Post projection 4, . mse: 0.00129559, cost: 0.00631979852915,PSNR:28.875311779673037
+projecting!
+On iteration 1477. mse: 0.00129273, rel_cost_diff: 0.000994640109845,PSNR:28.88491317791034
+Change in mse between projections is : 1.06288e-08
+mse, projection: 0.00129298
+Post projection 5, . mse: 0.00129298, cost: 0.00625417754054,PSNR:28.884070443146914
+projecting!
+On iteration 1489. mse: 0.00129038, rel_cost_diff: 0.000999345787751,PSNR:28.89283701109649
+Change in mse between projections is : 8.78598e-09
+mse, projection: 0.00129063
+Post projection 6, . mse: 0.00129063, cost: 0.00619616080076,PSNR:28.891986469709224
+On iteration 1501. mse: 0.00128826, cost: 0.00529616931453,PSNR:28.899950702394396
+projecting!
+On iteration 1501. mse: 0.00128806, rel_cost_diff: 0.000990566776698,PSNR:28.900643832687372
+Change in mse between projections is : 8.46534e-09
+mse, projection: 0.00128831
+Post projection 7, . mse: 0.00128831, cost: 0.00613860506564,PSNR:28.89978665943171
+projecting!
+On iteration 1513. mse: 0.00128578, rel_cost_diff: 0.000989924151464,PSNR:28.90833888287512
+Change in mse between projections is : 8.18754e-09
+mse, projection: 0.00128603
+Post projection 8, . mse: 0.00128603, cost: 0.00608211383224,PSNR:28.907475865149852
+projecting!
+On iteration 1525. mse: 0.00128353, rel_cost_diff: 0.000987087373582,PSNR:28.91592705634837
+Change in mse between projections is : 7.93663e-09
+mse, projection: 0.00128379
+Post projection 9, . mse: 0.00128379, cost: 0.00602679187432,PSNR:28.91505898515227
+projecting!
+On iteration 1537. mse: 0.00128132, rel_cost_diff: 0.000981744096515,PSNR:28.92341526522842
+Change in mse between projections is : 7.70555e-09
+mse, projection: 0.00128158
+Post projection 10, . mse: 0.00128158, cost: 0.0059725958854,PSNR:28.92254175112562
+projecting!
+On iteration 1549. mse: 0.00127914, rel_cost_diff: 0.000972375893105,PSNR:28.93080336403105
+Change in mse between projections is : 7.48502e-09
+mse, projection: 0.0012794
+Post projection 11, . mse: 0.0012794, cost: 0.00591954309493,PSNR:28.929926386950434
+projecting!
+On iteration 1560. mse: 0.00127719, rel_cost_diff: 0.000994181046136,PSNR:28.937443148107334
+Change in mse between projections is : 6.15537e-09
+mse, projection: 0.00127745
+Post projection 12, . mse: 0.00127745, cost: 0.0058741546236,PSNR:28.936560475807124
+projecting!
+On iteration 1571. mse: 0.00127526, rel_cost_diff: 0.000994412049447,PSNR:28.94400191331078
+Change in mse between projections is : 5.98206e-09
+mse, projection: 0.00127552
+Post projection 13, . mse: 0.00127552, cost: 0.00582887604833,PSNR:28.943115132493347
+projecting!
+On iteration 1582. mse: 0.00127336, rel_cost_diff: 0.000988904932357,PSNR:28.950483247228735
+Change in mse between projections is : 5.82677e-09
+mse, projection: 0.00127362
+Post projection 14, . mse: 0.00127362, cost: 0.00578428991139,PSNR:28.94959276034376
+projecting!
+On iteration 1593. mse: 0.00127148, rel_cost_diff: 0.000981969537325,PSNR:28.95688877611722
+Change in mse between projections is : 5.67664e-09
+mse, projection: 0.00127175
+Post projection 15, . mse: 0.00127175, cost: 0.00574054289609,PSNR:28.955994589682
+On iteration 1601. mse: 0.00127037, cost: 0.00489121489227,PSNR:28.960704953658933
+projecting!
+On iteration 1604. mse: 0.00126963, rel_cost_diff: 0.000974539684646,PSNR:28.963220937347213
+Change in mse between projections is : 5.54046e-09
+mse, projection: 0.00126989
+Post projection 16, . mse: 0.00126989, cost: 0.00569756841287,PSNR:28.962323057550485
+projecting!
+On iteration 1615. mse: 0.0012678, rel_cost_diff: 0.000976163093941,PSNR:28.96948178854076
+Change in mse between projections is : 5.40824e-09
+mse, projection: 0.00126807
+Post projection 17, . mse: 0.00126807, cost: 0.00565539347008,PSNR:28.968580221313296
+projecting!
+On iteration 1626. mse: 0.001266, rel_cost_diff: 0.000969568775105,PSNR:28.975672205660132
+Change in mse between projections is : 5.28239e-09
+mse, projection: 0.00126626
+Post projection 18, . mse: 0.00126626, cost: 0.00561401247978,PSNR:28.97476855401091
+projecting!
+On iteration 1637. mse: 0.00126421, rel_cost_diff: 0.000962897637252,PSNR:28.98179547355516
+Change in mse between projections is : 5.16265e-09
+mse, projection: 0.00126448
+Post projection 19, . mse: 0.00126448, cost: 0.00557340821251,PSNR:28.98088774818897
+projecting!
+On iteration 1648. mse: 0.00126245, rel_cost_diff: 0.00095793118453,PSNR:28.98785209635814
+Change in mse between projections is : 5.04363e-09
+mse, projection: 0.00126272
+Post projection 20, . mse: 0.00126272, cost: 0.00553353782743,PSNR:28.986942303547494
+projecting!
+On iteration 1658. mse: 0.00126088, rel_cost_diff: 0.000992267193385,PSNR:28.99324548975262
+Change in mse between projections is : 4.09671e-09
+mse, projection: 0.00126115
+Post projection 21, . mse: 0.00126115, cost: 0.00550081999972,PSNR:28.99233095847915
+projecting!
+On iteration 1669. mse: 0.00125916, rel_cost_diff: 0.000957316964462,PSNR:28.999177978496835
+Change in mse between projections is : 4.82967e-09
+mse, projection: 0.00125943
+Post projection 22, . mse: 0.00125943, cost: 0.00546121643856,PSNR:28.998262598686356
+projecting!
+On iteration 1679. mse: 0.00125763, rel_cost_diff: 0.000990778710528,PSNR:29.00446204444165
+Change in mse between projections is : 3.91479e-09
+mse, projection: 0.0012579
+Post projection 23, . mse: 0.0012579, cost: 0.00542951794341,PSNR:29.003542736827328
+projecting!
+On iteration 1689. mse: 0.00125612, rel_cost_diff: 0.000995932943966,PSNR:29.009695392220994
+Change in mse between projections is : 3.82725e-09
+mse, projection: 0.00125639
+Post projection 24, . mse: 0.00125639, cost: 0.00539739523083,PSNR:29.00877256179266
+projecting!
+On iteration 1699. mse: 0.00125462, rel_cost_diff: 0.000995215467418,PSNR:29.01487823352044
+Change in mse between projections is : 3.74823e-09
+mse, projection: 0.00125489
+Post projection 25, . mse: 0.00125489, cost: 0.0053656026721,PSNR:29.013952286786974
+On iteration 1701. mse: 0.00125466, cost: 0.00474214600399,PSNR:29.014751297030593
+projecting!
+On iteration 1709. mse: 0.00125314, rel_cost_diff: 0.000989135548997,PSNR:29.020010783255607
+Change in mse between projections is : 3.67381e-09
+mse, projection: 0.00125341
+Post projection 26, . mse: 0.00125341, cost: 0.00533420359716,PSNR:29.019082531588293
+projecting!
+On iteration 1719. mse: 0.00125167, rel_cost_diff: 0.000984518819273,PSNR:29.025096087047736
+Change in mse between projections is : 3.60129e-09
+mse, projection: 0.00125194
+Post projection 27, . mse: 0.00125194, cost: 0.00530321663246,PSNR:29.024164728730412
+projecting!
+On iteration 1729. mse: 0.00125022, rel_cost_diff: 0.000987543085902,PSNR:29.030133162861816
+Change in mse between projections is : 3.53051e-09
+mse, projection: 0.00125049
+Post projection 28, . mse: 0.00125049, cost: 0.00527271348983,PSNR:29.029199510886976
+projecting!
+On iteration 1739. mse: 0.00124878, rel_cost_diff: 0.000986619283791,PSNR:29.035123455257068
+Change in mse between projections is : 3.46085e-09
+mse, projection: 0.00124905
+Post projection 29, . mse: 0.00124905, cost: 0.00524270208552,PSNR:29.034188325186875
+projecting!
+On iteration 1749. mse: 0.00124736, rel_cost_diff: 0.000984304170761,PSNR:29.040069633346633
+Change in mse between projections is : 3.39445e-09
+mse, projection: 0.00124763
+Post projection 30, . mse: 0.00124763, cost: 0.00521314842626,PSNR:29.039131006351248
+projecting!
+On iteration 1759. mse: 0.00124596, rel_cost_diff: 0.0009752739981,PSNR:29.04496951081759
+Change in mse between projections is : 3.33002e-09
+mse, projection: 0.00124623
+Post projection 31, . mse: 0.00124623, cost: 0.00518406089395,PSNR:29.04403023003706
+Stopping rule loss: 0.444846600294
+projecting!
+On iteration 0. mse: 0.00453134, rel_cost_diff: 0.214596248637,PSNR:23.437735087779743
+mse, projection: 0.00453188
+Post projection 1, . mse: 0.00453188, cost: 0.523107349873,PSNR:23.437218748105757
+On iteration 1. mse: 0.00453188, cost: 0.523107349873,PSNR:23.437218748105757
+On iteration 101. mse: 0.00327326, cost: 0.158680915833,PSNR:24.85019485881477
+On iteration 201. mse: 0.00271952, cost: 0.0864487364888,PSNR:25.65507090791109
+On iteration 301. mse: 0.00240058, cost: 0.0531920641661,PSNR:26.196846416982666
+On iteration 401. mse: 0.00219745, cost: 0.0353599563241,PSNR:26.580817748809036
+On iteration 501. mse: 0.00205896, cost: 0.0249522663653,PSNR:26.863515926646777
+On iteration 601. mse: 0.00195942, cost: 0.0184890832752,PSNR:27.078729184931213
+On iteration 701. mse: 0.00188474, cost: 0.0142745785415,PSNR:27.247478634847898
+On iteration 801. mse: 0.00182663, cost: 0.0114231500775,PSNR:27.38349807607159
+On iteration 901. mse: 0.00177992, cost: 0.00943383108824,PSNR:27.49598902839747
+On iteration 1001. mse: 0.0017413, cost: 0.00800703000277,PSNR:27.591270998685253
+On iteration 1101. mse: 0.00170856, cost: 0.00695689767599,PSNR:27.67369399795497
+On iteration 1201. mse: 0.00168021, cost: 0.00616631703451,PSNR:27.7463718714707
+projecting!
+On iteration 1275. mse: 0.00166118, rel_cost_diff: 0.000999109704224,PSNR:27.795825315637117
+Change in mse between projections is : 0.00228674
+mse, projection: 0.00166145
+Post projection 2, . mse: 0.00166145, cost: 0.0065430928953,PSNR:27.795124752507828
+projecting!
+On iteration 1290. mse: 0.00165773, rel_cost_diff: 0.000996619312587,PSNR:27.804868517563314
+Change in mse between projections is : 1.46708e-08
+mse, projection: 0.001658
+Post projection 3, . mse: 0.001658, cost: 0.00646166503429,PSNR:27.804161310330077
+On iteration 1301. mse: 0.00165551, cost: 0.00555715011433,PSNR:27.810670498997496
+projecting!
+On iteration 1303. mse: 0.00165481, rel_cost_diff: 0.000997960120091,PSNR:27.812511808566626
+Change in mse between projections is : 1.05206e-08
+mse, projection: 0.00165508
+Post projection 4, . mse: 0.00165508, cost: 0.00639381539077,PSNR:27.811799995485046
+projecting!
+On iteration 1316. mse: 0.00165195, rel_cost_diff: 0.000982698615661,PSNR:27.820032378917436
+Change in mse between projections is : 1.00956e-08
+mse, projection: 0.00165222
+Post projection 5, . mse: 0.00165222, cost: 0.0063268840313,PSNR:27.819317496219522
+projecting!
+On iteration 1328. mse: 0.00164936, rel_cost_diff: 0.000985257108569,PSNR:27.82684588633726
+Change in mse between projections is : 8.30798e-09
+mse, projection: 0.00164963
+Post projection 6, . mse: 0.00164963, cost: 0.0062678088434,PSNR:27.826128348876544
+projecting!
+On iteration 1340. mse: 0.00164681, rel_cost_diff: 0.000970938640122,PSNR:27.833570627901125
+Change in mse between projections is : 8.03709e-09
+mse, projection: 0.00164708
+Post projection 7, . mse: 0.00164708, cost: 0.00620953273028,PSNR:27.83285013686541
+projecting!
+On iteration 1351. mse: 0.00164451, rel_cost_diff: 0.000995526016855,PSNR:27.83962753773907
+Change in mse between projections is : 6.55188e-09
+mse, projection: 0.00164479
+Post projection 8, . mse: 0.00164479, cost: 0.00615887949243,PSNR:27.838904504316233
+projecting!
+On iteration 1362. mse: 0.00164225, rel_cost_diff: 0.000977287182705,PSNR:27.845613477605337
+Change in mse between projections is : 6.36478e-09
+mse, projection: 0.00164252
+Post projection 9, . mse: 0.00164252, cost: 0.00610856711864,PSNR:27.844887907959603
+projecting!
+On iteration 1373. mse: 0.00164001, rel_cost_diff: 0.000975261749228,PSNR:27.851532457984227
+Change in mse between projections is : 6.19316e-09
+mse, projection: 0.00164029
+Post projection 10, . mse: 0.00164029, cost: 0.00605925079435,PSNR:27.850804974181216
+projecting!
+On iteration 1384. mse: 0.0016378, rel_cost_diff: 0.000965530445683,PSNR:27.85738789789384
+Change in mse between projections is : 6.02662e-09
+mse, projection: 0.00163808
+Post projection 11, . mse: 0.00163808, cost: 0.00601097755134,PSNR:27.856657889441962
+projecting!
+On iteration 1395. mse: 0.00163562, rel_cost_diff: 0.00095045461438,PSNR:27.863182311128668
+Change in mse between projections is : 5.87287e-09
+mse, projection: 0.00163589
+Post projection 12, . mse: 0.00163589, cost: 0.00596375623718,PSNR:27.862450400948987
+On iteration 1401. mse: 0.00163472, cost: 0.00510296970606,PSNR:27.865569912707482
+projecting!
+On iteration 1406. mse: 0.00163346, rel_cost_diff: 0.000941962652643,PSNR:27.86891729970666
+Change in mse between projections is : 5.7212e-09
+mse, projection: 0.00163374
+Post projection 13, . mse: 0.00163374, cost: 0.00591757986695,PSNR:27.86818349406305
+projecting!
+On iteration 1416. mse: 0.00163153, rel_cost_diff: 0.000990131482642,PSNR:27.874044398656963
+Change in mse between projections is : 4.60379e-09
+mse, projection: 0.00163181
+Post projection 14, . mse: 0.00163181, cost: 0.00587856443599,PSNR:27.873308177118147
+projecting!
+On iteration 1426. mse: 0.00162963, rel_cost_diff: 0.00098624025384,PSNR:27.879122953891113
+Change in mse between projections is : 4.49317e-09
+mse, projection: 0.0016299
+Post projection 15, . mse: 0.0016299, cost: 0.00583933759481,PSNR:27.878384940417522
+projecting!
+On iteration 1436. mse: 0.00162774, rel_cost_diff: 0.000973924837125,PSNR:27.884154030279852
+Change in mse between projections is : 4.38985e-09
+mse, projection: 0.00162802
+Post projection 16, . mse: 0.00162802, cost: 0.00580072589219,PSNR:27.883414229773873
+projecting!
+On iteration 1446. mse: 0.00162587, rel_cost_diff: 0.000968168911446,PSNR:27.889140565395717
+Change in mse between projections is : 4.29059e-09
+mse, projection: 0.00162615
+Post projection 17, . mse: 0.00162615, cost: 0.00576280709356,PSNR:27.88839960413142
+projecting!
+On iteration 1456. mse: 0.00162402, rel_cost_diff: 0.000963692788261,PSNR:27.894084578182717
+Change in mse between projections is : 4.19552e-09
+mse, projection: 0.0016243
+Post projection 18, . mse: 0.0016243, cost: 0.00572563428432,PSNR:27.893340594152495
+projecting!
+On iteration 1466. mse: 0.00162219, rel_cost_diff: 0.000957832294127,PSNR:27.898985293415652
+Change in mse between projections is : 4.10189e-09
+mse, projection: 0.00162247
+Post projection 19, . mse: 0.00162247, cost: 0.00568917719647,PSNR:27.898239846218505
+projecting!
+On iteration 1476. mse: 0.00162037, rel_cost_diff: 0.000949789610557,PSNR:27.90384474214288
+Change in mse between projections is : 4.01424e-09
+mse, projection: 0.00162065
+Post projection 20, . mse: 0.00162065, cost: 0.00565339904279,PSNR:27.903097212592503
+projecting!
+On iteration 1486. mse: 0.00161858, rel_cost_diff: 0.000938946066212,PSNR:27.908663404242866
+Change in mse between projections is : 3.92899e-09
+mse, projection: 0.00161886
+Post projection 21, . mse: 0.00161886, cost: 0.0056183161214,PSNR:27.907915044891276
+projecting!
+On iteration 1496. mse: 0.0016168, rel_cost_diff: 0.000935864220897,PSNR:27.913443952155326
+Change in mse between projections is : 3.84656e-09
+mse, projection: 0.00161708
+Post projection 22, . mse: 0.00161708, cost: 0.0055838804692,PSNR:27.912693518040207
+On iteration 1501. mse: 0.00161619, cost: 0.00474912114441,PSNR:27.91508159943178
+projecting!
+On iteration 1506. mse: 0.00161503, rel_cost_diff: 0.000928445039536,PSNR:27.918185001808837
+Change in mse between projections is : 3.76631e-09
+mse, projection: 0.00161531
+Post projection 23, . mse: 0.00161531, cost: 0.00555015075952,PSNR:27.917433435097806
+projecting!
+On iteration 1516. mse: 0.00161329, rel_cost_diff: 0.000924078657528,PSNR:27.922888611696052
+Change in mse between projections is : 3.68868e-09
+mse, projection: 0.00161356
+Post projection 24, . mse: 0.00161356, cost: 0.00551703991368,PSNR:27.92213560396439
+projecting!
+On iteration 1526. mse: 0.00161155, rel_cost_diff: 0.0009176167069,PSNR:27.927555909348936
+Change in mse between projections is : 3.61366e-09
+mse, projection: 0.00161183
+Post projection 25, . mse: 0.00161183, cost: 0.00548460893333,PSNR:27.926801778335225
+projecting!
+On iteration 1536. mse: 0.00160983, rel_cost_diff: 0.000906602851944,PSNR:27.93218834240939
+Change in mse between projections is : 3.54103e-09
+mse, projection: 0.00161011
+Post projection 26, . mse: 0.00161011, cost: 0.00545275816694,PSNR:27.931433092631362
+projecting!
+On iteration 1545. mse: 0.00160832, rel_cost_diff: 0.000998228213418,PSNR:27.936285937560378
+Change in mse between projections is : 2.80407e-09
+mse, projection: 0.0016086
+Post projection 27, . mse: 0.0016086, cost: 0.00542728975415,PSNR:27.93552808911239
+projecting!
+On iteration 1555. mse: 0.00160663, rel_cost_diff: 0.000904433162808,PSNR:27.940849968415584
+Change in mse between projections is : 3.40794e-09
+mse, projection: 0.00160691
+Post projection 28, . mse: 0.00160691, cost: 0.00539504410699,PSNR:27.940091323190362
+projecting!
+On iteration 1564. mse: 0.00160513, rel_cost_diff: 0.000981651598517,PSNR:27.944886136734752
+Change in mse between projections is : 2.69525e-09
+mse, projection: 0.00160542
+Post projection 29, . mse: 0.00160542, cost: 0.00537030212581,PSNR:27.94412552648754
+projecting!
+On iteration 1573. mse: 0.00160365, rel_cost_diff: 0.000991355102592,PSNR:27.948893271315942
+Change in mse between projections is : 2.6431e-09
+mse, projection: 0.00160394
+Post projection 30, . mse: 0.00160394, cost: 0.00534468330443,PSNR:27.948131013362367
+projecting!
+On iteration 1582. mse: 0.00160219, rel_cost_diff: 0.000991110536033,PSNR:27.95287223494504
+Change in mse between projections is : 2.59533e-09
+mse, projection: 0.00160247
+Post projection 31, . mse: 0.00160247, cost: 0.00531926844269,PSNR:27.952108331846507
+Stopping rule loss: 2.94095087051
+projecting!
+On iteration 0. mse: 0.0205023, rel_cost_diff: 0.112999890882,PSNR:16.88197948574323
+mse, projection: 0.0205037
+Post projection 1, . mse: 0.0205037, cost: 3.17028951645,PSNR:16.88167884189297
+On iteration 1. mse: 0.0205037, cost: 3.17028951645,PSNR:16.88167884189297
+On iteration 101. mse: 0.0129027, cost: 0.955381214619,PSNR:18.893203292755995
+On iteration 201. mse: 0.00969504, cost: 0.487999856472,PSNR:20.134505171371053
+On iteration 301. mse: 0.00794994, cost: 0.282706141472,PSNR:20.99636407316075
+On iteration 401. mse: 0.00689791, cost: 0.17718526721,PSNR:21.61282386362877
+On iteration 501. mse: 0.00621893, cost: 0.117821663618,PSNR:22.062843472669506
+On iteration 601. mse: 0.00575701, cost: 0.0822207629681,PSNR:22.398030806778383
+On iteration 701. mse: 0.00542893, cost: 0.0597847141325,PSNR:22.65285512235924
+On iteration 801. mse: 0.00518721, cost: 0.0450835227966,PSNR:22.850662340643506
+On iteration 901. mse: 0.00500321, cost: 0.0351081863046,PSNR:23.00751335268705
+On iteration 1001. mse: 0.0048591, cost: 0.0281470827758,PSNR:23.134445707125163
+On iteration 1101. mse: 0.0047433, cost: 0.0231633596122,PSNR:23.239190308852876
+On iteration 1201. mse: 0.0046481, cost: 0.0195050965995,PSNR:23.327242648527214
+On iteration 1301. mse: 0.00456824, cost: 0.0167643167078,PSNR:23.402511187830115
+On iteration 1401. mse: 0.0045, cost: 0.0146728986874,PSNR:23.467874599791614
+On iteration 1501. mse: 0.00444074, cost: 0.0130504285917,PSNR:23.525445412461607
+projecting!
+On iteration 1576. mse: 0.00440051, rel_cost_diff: 0.000997543622247,PSNR:23.56497229847357
+Change in mse between projections is : 0.014319
+mse, projection: 0.00440065
+Post projection 2, . mse: 0.00440065, cost: 0.0139784552157,PSNR:23.56482707678004
+projecting!
+On iteration 1594. mse: 0.00439148, rel_cost_diff: 0.000995773780075,PSNR:23.57389297598171
+Change in mse between projections is : 4.46112e-08
+mse, projection: 0.00439163
+Post projection 3, . mse: 0.00439163, cost: 0.0137746641412,PSNR:23.573742850699404
+On iteration 1601. mse: 0.00438847, cost: 0.011795014143,PSNR:23.5768680003456
+projecting!
+On iteration 1610. mse: 0.00438363, rel_cost_diff: 0.000994379866198,PSNR:23.581659132223336
+Change in mse between projections is : 3.34834e-08
+mse, projection: 0.00438379
+Post projection 4, . mse: 0.00438379, cost: 0.0135995699093,PSNR:23.5815045863409
+projecting!
+On iteration 1625. mse: 0.00437642, rel_cost_diff: 0.000996625405987,PSNR:23.588810238051238
+Change in mse between projections is : 2.82124e-08
+mse, projection: 0.00437658
+Post projection 5, . mse: 0.00437658, cost: 0.0134404627606,PSNR:23.588652664990903
+projecting!
+On iteration 1639. mse: 0.0043698, rel_cost_diff: 0.000996198863608,PSNR:23.59538117786557
+Change in mse between projections is : 2.37015e-08
+mse, projection: 0.00436996
+Post projection 6, . mse: 0.00436996, cost: 0.0132974237204,PSNR:23.595221977871926
+projecting!
+On iteration 1653. mse: 0.0043633, rel_cost_diff: 0.000987466767945,PSNR:23.601854080291393
+Change in mse between projections is : 2.28913e-08
+mse, projection: 0.00436346
+Post projection 7, . mse: 0.00436346, cost: 0.0131565304473,PSNR:23.60169325242994
+projecting!
+On iteration 1666. mse: 0.00435734, rel_cost_diff: 0.000996485596109,PSNR:23.60778662399305
+Change in mse between projections is : 1.91304e-08
+mse, projection: 0.0043575
+Post projection 8, . mse: 0.0043575, cost: 0.0130318272859,PSNR:23.607623255763276
+projecting!
+On iteration 1679. mse: 0.00435147, rel_cost_diff: 0.000988239115384,PSNR:23.61363990906133
+Change in mse between projections is : 1.85507e-08
+mse, projection: 0.00435163
+Post projection 9, . mse: 0.00435163, cost: 0.0129086235538,PSNR:23.613475391041842
+projecting!
+On iteration 1692. mse: 0.00434568, rel_cost_diff: 0.000983979848504,PSNR:23.619420118876043
+Change in mse between projections is : 1.80199e-08
+mse, projection: 0.00434585
+Post projection 10, . mse: 0.00434585, cost: 0.0127879977226,PSNR:23.619255381750904
+On iteration 1701. mse: 0.00434214, cost: 0.010811666958,PSNR:23.62296534233497
+projecting!
+On iteration 1704. mse: 0.0043404, rel_cost_diff: 0.000996044712071,PSNR:23.624698736446085
+Change in mse between projections is : 1.4948e-08
+mse, projection: 0.00434057
+Post projection 11, . mse: 0.00434057, cost: 0.0126827973872,PSNR:23.624531003477447
+projecting!
+On iteration 1716. mse: 0.00433519, rel_cost_diff: 0.000990272104768,PSNR:23.629916602040133
+Change in mse between projections is : 1.45463e-08
+mse, projection: 0.00433536
+Post projection 12, . mse: 0.00433536, cost: 0.0125783234835,PSNR:23.629747268002372
+projecting!
+On iteration 1728. mse: 0.00433004, rel_cost_diff: 0.000981527796717,PSNR:23.635076291037013
+Change in mse between projections is : 1.41732e-08
+mse, projection: 0.00433021
+Post projection 13, . mse: 0.00433021, cost: 0.0124756284058,PSNR:23.634905821643606
+projecting!
+On iteration 1740. mse: 0.00432496, rel_cost_diff: 0.000987806378562,PSNR:23.64018086160406
+Change in mse between projections is : 1.38204e-08
+mse, projection: 0.00432513
+Post projection 14, . mse: 0.00432513, cost: 0.0123749496415,PSNR:23.640008788993754
+projecting!
+On iteration 1752. mse: 0.00431993, rel_cost_diff: 0.000975391476386,PSNR:23.64523058012321
+Change in mse between projections is : 1.34848e-08
+mse, projection: 0.0043201
+Post projection 15, . mse: 0.0043201, cost: 0.0122762629762,PSNR:23.645059243571446
+projecting!
+On iteration 1763. mse: 0.00431537, rel_cost_diff: 0.000996464857644,PSNR:23.649819858294908
+Change in mse between projections is : 1.10717e-08
+mse, projection: 0.00431554
+Post projection 16, . mse: 0.00431554, cost: 0.0121924672276,PSNR:23.64964599750514
+projecting!
+On iteration 1774. mse: 0.00431086, rel_cost_diff: 0.000997718549035,PSNR:23.65436332512847
+Change in mse between projections is : 1.08126e-08
+mse, projection: 0.00431103
+Post projection 17, . mse: 0.00431103, cost: 0.0121083576232,PSNR:23.654186936816647
+projecting!
+On iteration 1785. mse: 0.00430639, rel_cost_diff: 0.00099370652534,PSNR:23.65886177086574
+Change in mse between projections is : 1.05722e-08
+mse, projection: 0.00430657
+Post projection 18, . mse: 0.00430657, cost: 0.01202512905,PSNR:23.658686138948035
+projecting!
+On iteration 1796. mse: 0.00430198, rel_cost_diff: 0.000990962058999,PSNR:23.66331975151276
+Change in mse between projections is : 1.03331e-08
+mse, projection: 0.00430215
+Post projection 19, . mse: 0.00430215, cost: 0.0119432201609,PSNR:23.66314299906854
+On iteration 1801. mse: 0.00430035, cost: 0.0100622437894,PSNR:23.6649653987499
+projecting!
+On iteration 1807. mse: 0.0042976, rel_cost_diff: 0.000986329068145,PSNR:23.66773713756278
+Change in mse between projections is : 1.01109e-08
+mse, projection: 0.00429778
+Post projection 20, . mse: 0.00429778, cost: 0.0118627278134,PSNR:23.667558323028747
+projecting!
+On iteration 1818. mse: 0.00429327, rel_cost_diff: 0.000981381978205,PSNR:23.672114742476452
+Change in mse between projections is : 9.89894e-09
+mse, projection: 0.00429345
+Post projection 21, . mse: 0.00429345, cost: 0.0117837833241,PSNR:23.671935276584264
+projecting!
+On iteration 1829. mse: 0.00428898, rel_cost_diff: 0.000976957200323,PSNR:23.676454798920247
+Change in mse between projections is : 9.69298e-09
+mse, projection: 0.00428916
+Post projection 22, . mse: 0.00428916, cost: 0.0117062777281,PSNR:23.676274682095336
+projecting!
+On iteration 1840. mse: 0.00428474, rel_cost_diff: 0.000968698123798,PSNR:23.680757189814507
+Change in mse between projections is : 9.49467e-09
+mse, projection: 0.00428492
+Post projection 23, . mse: 0.00428492, cost: 0.0116301467642,PSNR:23.680576422502455
+projecting!
+On iteration 1851. mse: 0.00428053, rel_cost_diff: 0.00096517441283,PSNR:23.685024161077894
+Change in mse between projections is : 9.29928e-09
+mse, projection: 0.00428071
+Post projection 24, . mse: 0.00428071, cost: 0.0115553652868,PSNR:23.68484227121449
+projecting!
+On iteration 1862. mse: 0.00427636, rel_cost_diff: 0.000959805851636,PSNR:23.689255131120124
+Change in mse between projections is : 9.11185e-09
+mse, projection: 0.00427654
+Post projection 25, . mse: 0.00427654, cost: 0.0114819845185,PSNR:23.68907259108218
+projecting!
+On iteration 1873. mse: 0.00427223, rel_cost_diff: 0.000953832849581,PSNR:23.69345141065333
+Change in mse between projections is : 8.92804e-09
+mse, projection: 0.00427241
+Post projection 26, . mse: 0.00427241, cost: 0.0114099867642,PSNR:23.693268220809557
+projecting!
+On iteration 1883. mse: 0.00426851, rel_cost_diff: 0.000992616926501,PSNR:23.697240486486827
+Change in mse between projections is : 7.24813e-09
+mse, projection: 0.00426869
+Post projection 27, . mse: 0.00426869, cost: 0.0113517064601,PSNR:23.697055715464046
+projecting!
+On iteration 1894. mse: 0.00426445, rel_cost_diff: 0.000957882651855,PSNR:23.7013695631427
+Change in mse between projections is : 8.60022e-09
+mse, projection: 0.00426463
+Post projection 28, . mse: 0.00426463, cost: 0.0112795084715,PSNR:23.701184616368142
+On iteration 1901. mse: 0.00426223, cost: 0.00939706899226,PSNR:23.703629869556735
+projecting!
+On iteration 1904. mse: 0.00426079, rel_cost_diff: 0.000995423778353,PSNR:23.7050991065153
+Change in mse between projections is : 6.96489e-09
+mse, projection: 0.00426097
+Post projection 29, . mse: 0.00426097, cost: 0.0112226363271,PSNR:23.704913051611705
+projecting!
+On iteration 1914. mse: 0.00425716, rel_cost_diff: 0.000993858270382,PSNR:23.708800502355448
+Change in mse between projections is : 6.83062e-09
+mse, projection: 0.00425734
+Post projection 30, . mse: 0.00425734, cost: 0.0111645190045,PSNR:23.708612388720187
+projecting!
+On iteration 1925. mse: 0.00425321, rel_cost_diff: 0.000956844951279,PSNR:23.71283550590175
+Change in mse between projections is : 8.14093e-09
+mse, projection: 0.00425339
+Post projection 31, . mse: 0.00425339, cost: 0.0110946297646,PSNR:23.712647692879536
+Stopping rule loss: 1.40057063103
+projecting!
+On iteration 0. mse: 0.0112912, rel_cost_diff: 0.192309826725,PSNR:19.47258778093323
+mse, projection: 0.0112918
+Post projection 1, . mse: 0.0112918, cost: 1.61792361736,PSNR:19.47235602230472
+On iteration 1. mse: 0.0112918, cost: 1.61792361736,PSNR:19.47235602230472
+On iteration 101. mse: 0.00745745, cost: 0.479780375957,PSNR:21.274094580664155
+On iteration 201. mse: 0.00582257, cost: 0.252486407757,PSNR:22.34885520011929
+On iteration 301. mse: 0.00491293, cost: 0.150609150529,PSNR:23.086590877536224
+On iteration 401. mse: 0.00435131, cost: 0.0974912121892,PSNR:23.613803968546726
+On iteration 501. mse: 0.00397947, cost: 0.0671551898122,PSNR:24.001752605887425
+On iteration 601. mse: 0.00371971, cost: 0.0487556681037,PSNR:24.294904773619063
+On iteration 701. mse: 0.00353, cost: 0.037017762661,PSNR:24.52224794895946
+On iteration 801. mse: 0.00338606, cost: 0.0292116515338,PSNR:24.703054689117913
+On iteration 901. mse: 0.0032732, cost: 0.0238341912627,PSNR:24.850280430085945
+On iteration 1001. mse: 0.00318222, cost: 0.0200087036937,PSNR:24.97269126350158
+On iteration 1101. mse: 0.00310712, cost: 0.0172113608569,PSNR:25.07642031627558
+On iteration 1201. mse: 0.00304381, cost: 0.0151176555082,PSNR:25.16581776315612
+On iteration 1301. mse: 0.00298949, cost: 0.0135131683201,PSNR:25.244022449368888
+projecting!
+On iteration 1333. mse: 0.00297319, rel_cost_diff: 0.000999101336291,PSNR:25.267778404145353
+Change in mse between projections is : 0.00696842
+mse, projection: 0.00297347
+Post projection 2, . mse: 0.00297347, cost: 0.0145349102095,PSNR:25.267360105472388
+projecting!
+On iteration 1342. mse: 0.00296909, rel_cost_diff: 0.000992258741718,PSNR:25.27376346510205
+Change in mse between projections is : 1.3513e-08
+mse, projection: 0.00296938
+Post projection 3, . mse: 0.00296938, cost: 0.0144323324785,PSNR:25.27333641681866
+projecting!
+On iteration 1351. mse: 0.00296507, rel_cost_diff: 0.000987421640143,PSNR:25.27964424512549
+Change in mse between projections is : 1.25991e-08
+mse, projection: 0.00296537
+Post projection 4, . mse: 0.00296537, cost: 0.0143272448331,PSNR:25.279210480334147
+projecting!
+On iteration 1360. mse: 0.00296112, rel_cost_diff: 0.000985569883865,PSNR:25.285436700050823
+Change in mse between projections is : 1.20452e-08
+mse, projection: 0.00296142
+Post projection 5, . mse: 0.00296142, cost: 0.0142226889729,PSNR:25.284997917540547
+projecting!
+On iteration 1369. mse: 0.00295723, rel_cost_diff: 0.000982701211302,PSNR:25.29115243303698
+Change in mse between projections is : 1.16311e-08
+mse, projection: 0.00295753
+Post projection 6, . mse: 0.00295753, cost: 0.0141191389412,PSNR:25.29070999562056
+projecting!
+On iteration 1378. mse: 0.00295339, rel_cost_diff: 0.00097866667381,PSNR:25.296798320553915
+Change in mse between projections is : 1.12906e-08
+mse, projection: 0.00295369
+Post projection 7, . mse: 0.00295369, cost: 0.0140168368816,PSNR:25.29635291122592
+projecting!
+On iteration 1387. mse: 0.00294959, rel_cost_diff: 0.000972643118291,PSNR:25.302378536729787
+Change in mse between projections is : 1.09909e-08
+mse, projection: 0.0029499
+Post projection 8, . mse: 0.0029499, cost: 0.0139159476385,PSNR:25.301929812507144
+projecting!
+On iteration 1395. mse: 0.00294629, rel_cost_diff: 0.000994335167625,PSNR:25.30724995432184
+Change in mse between projections is : 8.59829e-09
+mse, projection: 0.00294659
+Post projection 9, . mse: 0.00294659, cost: 0.0138326445594,PSNR:25.306797294854686
+On iteration 1401. mse: 0.00294432, cost: 0.0122837210074,PSNR:25.31014548259907
+projecting!
+On iteration 1403. mse: 0.00294302, rel_cost_diff: 0.000996587171941,PSNR:25.312070150709612
+Change in mse between projections is : 8.38204e-09
+mse, projection: 0.00294333
+Post projection 10, . mse: 0.00294333, cost: 0.0137486523017,PSNR:25.31161458375873
+projecting!
+On iteration 1412. mse: 0.00293936, rel_cost_diff: 0.000961137923522,PSNR:25.31747601034851
+Change in mse between projections is : 1.02676e-08
+mse, projection: 0.00293967
+Post projection 11, . mse: 0.00293967, cost: 0.013649314642,PSNR:25.317019532034948
+projecting!
+On iteration 1420. mse: 0.00293616, rel_cost_diff: 0.000988811832959,PSNR:25.32219978234956
+Change in mse between projections is : 8.009e-09
+mse, projection: 0.00293647
+Post projection 12, . mse: 0.00293647, cost: 0.0135692292824,PSNR:25.321740052495187
+projecting!
+On iteration 1428. mse: 0.002933, rel_cost_diff: 0.000982878630259,PSNR:25.3268766394375
+Change in mse between projections is : 7.83809e-09
+mse, projection: 0.00293331
+Post projection 13, . mse: 0.00293331, cost: 0.0134888263419,PSNR:25.326414690667885
+projecting!
+On iteration 1436. mse: 0.00292987, rel_cost_diff: 0.000982618536865,PSNR:25.331509185362044
+Change in mse between projections is : 7.6756e-09
+mse, projection: 0.00293019
+Post projection 14, . mse: 0.00293019, cost: 0.0134091880172,PSNR:25.33104501816608
+projecting!
+On iteration 1444. mse: 0.00292678, rel_cost_diff: 0.000985626212258,PSNR:25.336099691242957
+Change in mse between projections is : 7.5238e-09
+mse, projection: 0.00292709
+Post projection 15, . mse: 0.00292709, cost: 0.0133306533098,PSNR:25.33563261502305
+projecting!
+On iteration 1452. mse: 0.00292372, rel_cost_diff: 0.000975320270289,PSNR:25.34064801842307
+Change in mse between projections is : 7.37738e-09
+mse, projection: 0.00292403
+Post projection 16, . mse: 0.00292403, cost: 0.0132531123236,PSNR:25.340179415366837
+projecting!
+On iteration 1460. mse: 0.00292068, rel_cost_diff: 0.000972905479184,PSNR:25.34515506780874
+Change in mse between projections is : 7.23746e-09
+mse, projection: 0.002921
+Post projection 17, . mse: 0.002921, cost: 0.0131767895073,PSNR:25.34468459352512
+projecting!
+On iteration 1468. mse: 0.00291768, rel_cost_diff: 0.000969149412165,PSNR:25.3496227852253
+Change in mse between projections is : 7.10364e-09
+mse, projection: 0.002918
+Post projection 18, . mse: 0.002918, cost: 0.0131015945226,PSNR:25.34915009408307
+projecting!
+On iteration 1476. mse: 0.00291471, rel_cost_diff: 0.000962575615375,PSNR:25.354051391284685
+Change in mse between projections is : 6.974e-09
+mse, projection: 0.00291503
+Post projection 19, . mse: 0.00291503, cost: 0.0130274808034,PSNR:25.353576830378874
+projecting!
+On iteration 1484. mse: 0.00291176, rel_cost_diff: 0.000962313606554,PSNR:25.35844076154381
+Change in mse between projections is : 6.84634e-09
+mse, projection: 0.00291208
+Post projection 20, . mse: 0.00291208, cost: 0.0129544790834,PSNR:25.357964679088944
+projecting!
+On iteration 1492. mse: 0.00290885, rel_cost_diff: 0.00095548806363,PSNR:25.362793553319545
+Change in mse between projections is : 6.7249e-09
+mse, projection: 0.00290917
+Post projection 21, . mse: 0.00290917, cost: 0.012882668525,PSNR:25.362315950746602
+projecting!
+On iteration 1500. mse: 0.00290596, rel_cost_diff: 0.000950124231209,PSNR:25.367108260224178
+Change in mse between projections is : 6.6059e-09
+mse, projection: 0.00290628
+Post projection 22, . mse: 0.00290628, cost: 0.0128119345754,PSNR:25.366629835017935
+On iteration 1501. mse: 0.00290628, cost: 0.0128119345754,PSNR:25.366629835017935
+projecting!
+On iteration 1508. mse: 0.00290309, rel_cost_diff: 0.00094699921381,PSNR:25.371387899081416
+Change in mse between projections is : 6.49074e-09
+mse, projection: 0.00290342
+Post projection 23, . mse: 0.00290342, cost: 0.0127423061058,PSNR:25.370907609140005
+projecting!
+On iteration 1516. mse: 0.00290026, rel_cost_diff: 0.000940919972569,PSNR:25.375630967312382
+Change in mse between projections is : 6.37892e-09
+mse, projection: 0.00290058
+Post projection 24, . mse: 0.00290058, cost: 0.0126736937091,PSNR:25.375148813484557
+projecting!
+On iteration 1524. mse: 0.00289745, rel_cost_diff: 0.000934591400036,PSNR:25.379839098446514
+Change in mse between projections is : 6.26847e-09
+mse, projection: 0.00289777
+Post projection 25, . mse: 0.00289777, cost: 0.0126061495394,PSNR:25.379356128283945
+projecting!
+On iteration 1532. mse: 0.00289467, rel_cost_diff: 0.000930206341421,PSNR:25.384012885465708
+Change in mse between projections is : 6.16097e-09
+mse, projection: 0.00289499
+Post projection 26, . mse: 0.00289499, cost: 0.0125396521762,PSNR:25.38352805381581
+projecting!
+On iteration 1540. mse: 0.00289191, rel_cost_diff: 0.000925934699944,PSNR:25.388151875692813
+Change in mse between projections is : 6.05635e-09
+mse, projection: 0.00289223
+Post projection 27, . mse: 0.00289223, cost: 0.0124741699547,PSNR:25.387666581785638
+projecting!
+On iteration 1547. mse: 0.00288955, rel_cost_diff: 0.000992337731445,PSNR:25.391701974028713
+Change in mse between projections is : 4.61909e-09
+mse, projection: 0.00288987
+Post projection 28, . mse: 0.00288987, cost: 0.0124251497909,PSNR:25.39121348406986
+projecting!
+On iteration 1555. mse: 0.00288684, rel_cost_diff: 0.000924947755839,PSNR:25.39577404455159
+Change in mse between projections is : 5.87034e-09
+mse, projection: 0.00288716
+Post projection 29, . mse: 0.00288716, cost: 0.012358263135,PSNR:25.39528544661114
+projecting!
+On iteration 1562. mse: 0.00288452, rel_cost_diff: 0.000994396461292,PSNR:25.39926658084509
+Change in mse between projections is : 4.46363e-09
+mse, projection: 0.00288485
+Post projection 30, . mse: 0.00288485, cost: 0.0123099600896,PSNR:25.398775136265556
+projecting!
+On iteration 1570. mse: 0.00288186, rel_cost_diff: 0.00092419861479,PSNR:25.403275929052775
+Change in mse between projections is : 5.69387e-09
+mse, projection: 0.00288218
+Post projection 31, . mse: 0.00288218, cost: 0.0122443055734,PSNR:25.40278403059444
+Stopping rule loss: 1.57455635071
+projecting!
+On iteration 0. mse: 0.0119439, rel_cost_diff: 0.117095522101,PSNR:19.228530276928165
+mse, projection: 0.0119446
+Post projection 1, . mse: 0.0119446, cost: 1.71524178982,PSNR:19.228288156515863
+On iteration 1. mse: 0.0119446, cost: 1.71524178982,PSNR:19.228288156515863
+On iteration 101. mse: 0.00766478, cost: 0.540690660477,PSNR:21.155003777102337
+On iteration 201. mse: 0.00585592, cost: 0.273862659931,PSNR:22.324045349585624
+On iteration 301. mse: 0.00488138, cost: 0.157588496804,PSNR:23.114569985084408
+On iteration 401. mse: 0.00429838, cost: 0.0984616205096,PSNR:23.666949467700192
+On iteration 501. mse: 0.00392424, cost: 0.0655167400837,PSNR:24.06244966992622
+On iteration 601. mse: 0.00367069, cost: 0.0459289960563,PSNR:24.352519470907644
+On iteration 701. mse: 0.003491, cost: 0.0336670912802,PSNR:24.570507255732963
+On iteration 801. mse: 0.00335875, cost: 0.025665152818,PSNR:24.738218510760017
+On iteration 901. mse: 0.00325814, cost: 0.0202535632998,PSNR:24.870309021464703
+On iteration 1001. mse: 0.00317935, cost: 0.0164825264364,PSNR:24.976614142073505
+On iteration 1101. mse: 0.00311611, cost: 0.013784667477,PSNR:25.06387497095233
+On iteration 1201. mse: 0.00306421, cost: 0.0118090808392,PSNR:25.136813998033514
+On iteration 1301. mse: 0.00302074, cost: 0.0103298295289,PSNR:25.19887072303732
+On iteration 1401. mse: 0.00298366, cost: 0.00919959973544,PSNR:25.25249960426788
+projecting!
+On iteration 1453. mse: 0.00296611, rel_cost_diff: 0.000996257349724,PSNR:25.278130689663637
+Change in mse between projections is : 0.00789429
+mse, projection: 0.00296629
+Post projection 2, . mse: 0.00296629, cost: 0.00988381169736,PSNR:25.27786376670203
+projecting!
+On iteration 1465. mse: 0.00296234, rel_cost_diff: 0.000995243672379,PSNR:25.283648725667934
+Change in mse between projections is : 1.48037e-08
+mse, projection: 0.00296253
+Post projection 3, . mse: 0.00296253, cost: 0.0097908815369,PSNR:25.283376343548532
+projecting!
+On iteration 1477. mse: 0.00295865, rel_cost_diff: 0.000993222664433,PSNR:25.289065098195266
+Change in mse between projections is : 1.39489e-08
+mse, projection: 0.00295884
+Post projection 4, . mse: 0.00295884, cost: 0.00969646498561,PSNR:25.28878895870833
+projecting!
+On iteration 1488. mse: 0.00295533, rel_cost_diff: 0.000994128099243,PSNR:25.293940415118087
+Change in mse between projections is : 1.13404e-08
+mse, projection: 0.00295552
+Post projection 5, . mse: 0.00295552, cost: 0.00961328949779,PSNR:25.293662254828973
+projecting!
+On iteration 1499. mse: 0.00295206, rel_cost_diff: 0.000988068368212,PSNR:25.29874242851235
+Change in mse between projections is : 1.09388e-08
+mse, projection: 0.00295225
+Post projection 6, . mse: 0.00295225, cost: 0.00953066628426,PSNR:25.2984615629439
+On iteration 1501. mse: 0.00295181, cost: 0.00856813788414,PSNR:25.299121625844784
+projecting!
+On iteration 1510. mse: 0.00294885, rel_cost_diff: 0.000989519393047,PSNR:25.30347363216624
+Change in mse between projections is : 1.05993e-08
+mse, projection: 0.00294904
+Post projection 7, . mse: 0.00294904, cost: 0.00944940466434,PSNR:25.303191088941404
+projecting!
+On iteration 1521. mse: 0.00294568, rel_cost_diff: 0.000975704491428,PSNR:25.308138251191302
+Change in mse between projections is : 1.0296e-08
+mse, projection: 0.00294588
+Post projection 8, . mse: 0.00294588, cost: 0.0093697430566,PSNR:25.307854031344586
+projecting!
+On iteration 1531. mse: 0.00294285, rel_cost_diff: 0.000991905067338,PSNR:25.312319255412582
+Change in mse between projections is : 8.32376e-09
+mse, projection: 0.00294304
+Post projection 9, . mse: 0.00294304, cost: 0.00930172298104,PSNR:25.31203270034153
+projecting!
+On iteration 1541. mse: 0.00294005, rel_cost_diff: 0.000985056978525,PSNR:25.316448227764766
+Change in mse between projections is : 8.10409e-09
+mse, projection: 0.00294025
+Post projection 10, . mse: 0.00294025, cost: 0.00923385564238,PSNR:25.3161607123231
+projecting!
+On iteration 1551. mse: 0.00293729, rel_cost_diff: 0.000985856127803,PSNR:25.320528458419712
+Change in mse between projections is : 7.90298e-09
+mse, projection: 0.00293749
+Post projection 11, . mse: 0.00293749, cost: 0.00916688237339,PSNR:25.32023826312884
+projecting!
+On iteration 1561. mse: 0.00293457, rel_cost_diff: 0.000970594219481,PSNR:25.32455911705359
+Change in mse between projections is : 7.70891e-09
+mse, projection: 0.00293476
+Post projection 12, . mse: 0.00293476, cost: 0.00910108070821,PSNR:25.324268652318356
+projecting!
+On iteration 1570. mse: 0.00293215, rel_cost_diff: 0.000997241498472,PSNR:25.328141734261756
+Change in mse between projections is : 6.1469e-09
+mse, projection: 0.00293235
+Post projection 13, . mse: 0.00293235, cost: 0.00904678180814,PSNR:25.327848960822173
+projecting!
+On iteration 1580. mse: 0.00292949, rel_cost_diff: 0.00096603036121,PSNR:25.332085235795134
+Change in mse between projections is : 7.36219e-09
+mse, projection: 0.00292968
+Post projection 14, . mse: 0.00292968, cost: 0.00898171123117,PSNR:25.331791506104988
+projecting!
+On iteration 1589. mse: 0.00292712, rel_cost_diff: 0.000991498264713,PSNR:25.335589088289154
+Change in mse between projections is : 5.86248e-09
+mse, projection: 0.00292732
+Post projection 15, . mse: 0.00292732, cost: 0.0089290831238,PSNR:25.335294085257345
+projecting!
+On iteration 1598. mse: 0.00292479, rel_cost_diff: 0.000985247564643,PSNR:25.339058777251942
+Change in mse between projections is : 5.73433e-09
+mse, projection: 0.00292499
+Post projection 16, . mse: 0.00292499, cost: 0.00887601729482,PSNR:25.33876146424225
+On iteration 1601. mse: 0.00292431, cost: 0.00774706434458,PSNR:25.339770336841113
+projecting!
+On iteration 1607. mse: 0.00292247, rel_cost_diff: 0.000985571568723,PSNR:25.34249214249713
+Change in mse between projections is : 5.61482e-09
+mse, projection: 0.00292268
+Post projection 17, . mse: 0.00292268, cost: 0.00882349722087,PSNR:25.342194248383983
+projecting!
+On iteration 1616. mse: 0.00292019, rel_cost_diff: 0.000980186884139,PSNR:25.345891865777375
+Change in mse between projections is : 5.50074e-09
+mse, projection: 0.00292039
+Post projection 18, . mse: 0.00292039, cost: 0.00877167470753,PSNR:25.345592699649266
+projecting!
+On iteration 1625. mse: 0.00291793, rel_cost_diff: 0.000983759870183,PSNR:25.349258212445545
+Change in mse between projections is : 5.39129e-09
+mse, projection: 0.00291813
+Post projection 19, . mse: 0.00291813, cost: 0.00872072763741,PSNR:25.348957774802116
+projecting!
+On iteration 1634. mse: 0.00291569, rel_cost_diff: 0.000975010339512,PSNR:25.35259214318389
+Change in mse between projections is : 5.2855e-09
+mse, projection: 0.00291589
+Post projection 20, . mse: 0.00291589, cost: 0.00867052655667,PSNR:25.35229112804453
+projecting!
+On iteration 1643. mse: 0.00291347, rel_cost_diff: 0.000967655562177,PSNR:25.355894969555663
+Change in mse between projections is : 5.18242e-09
+mse, projection: 0.00291367
+Post projection 21, . mse: 0.00291367, cost: 0.00862122420222,PSNR:25.355592684283835
+projecting!
+On iteration 1652. mse: 0.00291128, rel_cost_diff: 0.000974138692689,PSNR:25.35916696593178
+Change in mse between projections is : 5.08319e-09
+mse, projection: 0.00291148
+Post projection 22, . mse: 0.00291148, cost: 0.00857267901301,PSNR:25.35886375822912
+projecting!
+On iteration 1661. mse: 0.0029091, rel_cost_diff: 0.000964672688705,PSNR:25.362409103457217
+Change in mse between projections is : 4.98713e-09
+mse, projection: 0.00290931
+Post projection 23, . mse: 0.00290931, cost: 0.00852494314313,PSNR:25.36210566932438
+projecting!
+On iteration 1670. mse: 0.00290695, rel_cost_diff: 0.000957788993748,PSNR:25.365622356913903
+Change in mse between projections is : 4.89409e-09
+mse, projection: 0.00290716
+Post projection 24, . mse: 0.00290716, cost: 0.0084780510515,PSNR:25.36531765473719
+projecting!
+On iteration 1679. mse: 0.00290482, rel_cost_diff: 0.000952822579714,PSNR:25.368806660357762
+Change in mse between projections is : 4.80338e-09
+mse, projection: 0.00290503
+Post projection 25, . mse: 0.00290503, cost: 0.00843194592744,PSNR:25.368501038542576
+projecting!
+On iteration 1688. mse: 0.00290271, rel_cost_diff: 0.000940913862428,PSNR:25.371962645033403
+Change in mse between projections is : 4.71469e-09
+mse, projection: 0.00290292
+Post projection 26, . mse: 0.00290292, cost: 0.00838665664196,PSNR:25.371656452722906
+projecting!
+On iteration 1696. mse: 0.00290086, rel_cost_diff: 0.000999251145467,PSNR:25.374736776494544
+Change in mse between projections is : 3.69582e-09
+mse, projection: 0.00290106
+Post projection 27, . mse: 0.00290106, cost: 0.00835204776376,PSNR:25.37442864578352
+On iteration 1701. mse: 0.00289996, cost: 0.00717875827104,PSNR:25.37607830611393
+projecting!
+On iteration 1705. mse: 0.00289879, rel_cost_diff: 0.000948041986898,PSNR:25.377839867266303
+Change in mse between projections is : 4.55414e-09
+mse, projection: 0.00289899
+Post projection 28, . mse: 0.00289899, cost: 0.00830583833158,PSNR:25.377531865121927
+projecting!
+On iteration 1714. mse: 0.00289673, rel_cost_diff: 0.000936759971111,PSNR:25.38091515646086
+Change in mse between projections is : 4.468e-09
+mse, projection: 0.00289694
+Post projection 29, . mse: 0.00289694, cost: 0.00826202426106,PSNR:25.380605889003274
+projecting!
+On iteration 1722. mse: 0.00289493, rel_cost_diff: 0.000987432580301,PSNR:25.38361851901479
+Change in mse between projections is : 3.49863e-09
+mse, projection: 0.00289514
+Post projection 30, . mse: 0.00289514, cost: 0.00822915695608,PSNR:25.383307661933028
+projecting!
+On iteration 1730. mse: 0.00289314, rel_cost_diff: 0.000997510664674,PSNR:25.386301196946818
+Change in mse between projections is : 3.43348e-09
+mse, projection: 0.00289335
+Post projection 31, . mse: 0.00289335, cost: 0.0081945899874,PSNR:25.385989099350653
+Stopping rule loss: 1.65066254139
+projecting!
+On iteration 0. mse: 0.0130117, rel_cost_diff: 0.134303827444,PSNR:18.85666408906326
+mse, projection: 0.0130126
+Post projection 1, . mse: 0.0130126, cost: 1.82239830494,PSNR:18.856358534277476
+On iteration 1. mse: 0.0130126, cost: 1.82239830494,PSNR:18.856358534277476
+On iteration 101. mse: 0.0085029, cost: 0.570793688297,PSNR:20.704327075568788
+On iteration 201. mse: 0.00657347, cost: 0.295249193907,PSNR:21.822051404933674
+On iteration 301. mse: 0.00551489, cost: 0.172826290131,PSNR:22.584633324310435
+On iteration 401. mse: 0.00487166, cost: 0.109559461474,PSNR:23.123228296080704
+On iteration 501. mse: 0.00445312, cost: 0.0738212540746,PSNR:23.51335891463402
+On iteration 601. mse: 0.00416605, cost: 0.0523079447448,PSNR:23.802751459257667
+On iteration 701. mse: 0.00396027, cost: 0.0387134961784,PSNR:24.022754117638193
+On iteration 801. mse: 0.00380704, cost: 0.0297726429999,PSNR:24.19412647599907
+On iteration 901. mse: 0.00368905, cost: 0.0236994996667,PSNR:24.330849405097567
+On iteration 1001. mse: 0.00359546, cost: 0.0194455459714,PSNR:24.44246019779876
+On iteration 1101. mse: 0.00351921, cost: 0.0163905769587,PSNR:24.535551289361287
+On iteration 1201. mse: 0.0034556, cost: 0.0141404634342,PSNR:24.614759783440586
+On iteration 1301. mse: 0.00340146, cost: 0.0124462386593,PSNR:24.683347049168635
+On iteration 1401. mse: 0.00335453, cost: 0.0111473975703,PSNR:24.743678267761315
+projecting!
+On iteration 1417. mse: 0.00334715, rel_cost_diff: 0.000999707958124,PSNR:24.75324757706045
+Change in mse between projections is : 0.00834608
+mse, projection: 0.00334747
+Post projection 2, . mse: 0.00334747, cost: 0.0124472305179,PSNR:24.75282979431592
+projecting!
+On iteration 1432. mse: 0.00334096, rel_cost_diff: 0.000998260654783,PSNR:24.76128449675645
+Change in mse between projections is : 2.81353e-08
+mse, projection: 0.00334129
+Post projection 3, . mse: 0.00334129, cost: 0.0122921764851,PSNR:24.76086200601778
+projecting!
+On iteration 1446. mse: 0.00333533, rel_cost_diff: 0.000992068693941,PSNR:24.768612287505544
+Change in mse between projections is : 2.33049e-08
+mse, projection: 0.00333566
+Post projection 4, . mse: 0.00333566, cost: 0.0121510718018,PSNR:24.76818605193739
+projecting!
+On iteration 1459. mse: 0.00333021, rel_cost_diff: 0.000993010016064,PSNR:24.775280465962627
+Change in mse between projections is : 1.92962e-08
+mse, projection: 0.00333054
+Post projection 5, . mse: 0.00333054, cost: 0.0120248198509,PSNR:24.77485114663555
+projecting!
+On iteration 1472. mse: 0.00332519, rel_cost_diff: 0.000980529799274,PSNR:24.781839387785066
+Change in mse between projections is : 1.85994e-08
+mse, projection: 0.00332552
+Post projection 6, . mse: 0.00332552, cost: 0.0119009343907,PSNR:24.781408203364876
+projecting!
+On iteration 1484. mse: 0.00332064, rel_cost_diff: 0.000984884749857,PSNR:24.78778728759398
+Change in mse between projections is : 1.53364e-08
+mse, projection: 0.00332097
+Post projection 7, . mse: 0.00332097, cost: 0.0117918085307,PSNR:24.787352771941116
+projecting!
+On iteration 1496. mse: 0.00331616, rel_cost_diff: 0.000976098023484,PSNR:24.79365125695569
+Change in mse between projections is : 1.48492e-08
+mse, projection: 0.00331649
+Post projection 8, . mse: 0.00331649, cost: 0.0116842314601,PSNR:24.793215544456395
+On iteration 1501. mse: 0.0033148, cost: 0.0101947160438,PSNR:24.795431454820942
+projecting!
+On iteration 1507. mse: 0.00331212, rel_cost_diff: 0.000994942490923,PSNR:24.79893817202683
+Change in mse between projections is : 1.21232e-08
+mse, projection: 0.00331245
+Post projection 9, . mse: 0.00331245, cost: 0.0115908496082,PSNR:24.798500402497062
+projecting!
+On iteration 1518. mse: 0.00330814, rel_cost_diff: 0.000982786032324,PSNR:24.804160311336332
+Change in mse between projections is : 1.17779e-08
+mse, projection: 0.00330848
+Post projection 10, . mse: 0.00330848, cost: 0.0114981718361,PSNR:24.80372079260235
+projecting!
+On iteration 1529. mse: 0.00330421, rel_cost_diff: 0.00097929052129,PSNR:24.80932018745401
+Change in mse between projections is : 1.1462e-08
+mse, projection: 0.00330455
+Post projection 11, . mse: 0.00330455, cost: 0.011407263577,PSNR:24.80887831027986
+projecting!
+On iteration 1540. mse: 0.00330034, rel_cost_diff: 0.000971055923408,PSNR:24.814419715452388
+Change in mse between projections is : 1.1164e-08
+mse, projection: 0.00330067
+Post projection 12, . mse: 0.00330067, cost: 0.0113182952628,PSNR:24.81397578737858
+projecting!
+On iteration 1551. mse: 0.0032965, rel_cost_diff: 0.000964081492921,PSNR:24.81946296969185
+Change in mse between projections is : 1.08791e-08
+mse, projection: 0.00329684
+Post projection 13, . mse: 0.00329684, cost: 0.0112312361598,PSNR:24.8190176057061
+projecting!
+On iteration 1561. mse: 0.00329308, rel_cost_diff: 0.000999851210899,PSNR:24.823978385335007
+Change in mse between projections is : 8.77351e-09
+mse, projection: 0.00329342
+Post projection 14, . mse: 0.00329342, cost: 0.0111575396731,PSNR:24.823531022942817
+projecting!
+On iteration 1571. mse: 0.00328969, rel_cost_diff: 0.000992070225889,PSNR:24.82844563172143
+Change in mse between projections is : 8.56399e-09
+mse, projection: 0.00329003
+Post projection 15, . mse: 0.00329003, cost: 0.0110835852101,PSNR:24.827996886918832
+projecting!
+On iteration 1581. mse: 0.00328635, rel_cost_diff: 0.000991643563973,PSNR:24.832867016751358
+Change in mse between projections is : 8.36344e-09
+mse, projection: 0.00328669
+Post projection 16, . mse: 0.00328669, cost: 0.0110106794164,PSNR:24.83241658426374
+projecting!
+On iteration 1591. mse: 0.00328304, rel_cost_diff: 0.000981996662254,PSNR:24.837244859542075
+Change in mse between projections is : 8.17634e-09
+mse, projection: 0.00328338
+Post projection 17, . mse: 0.00328338, cost: 0.0109390905127,PSNR:24.836793048896958
+On iteration 1601. mse: 0.0032801, cost: 0.00940520688891,PSNR:24.841124295826926
+projecting!
+On iteration 1601. mse: 0.00327976, rel_cost_diff: 0.0009762199404,PSNR:24.841580256988635
+Change in mse between projections is : 7.99495e-09
+mse, projection: 0.0032801
+Post projection 18, . mse: 0.0032801, cost: 0.0108687896281,PSNR:24.841127070293698
+projecting!
+On iteration 1611. mse: 0.00327652, rel_cost_diff: 0.000967706030593,PSNR:24.845874311904804
+Change in mse between projections is : 7.82129e-09
+mse, projection: 0.00327686
+Post projection 19, . mse: 0.00327686, cost: 0.0107998503372,PSNR:24.84542005976849
+projecting!
+On iteration 1621. mse: 0.00327331, rel_cost_diff: 0.000964462657381,PSNR:24.850129368583765
+Change in mse between projections is : 7.65155e-09
+mse, projection: 0.00327365
+Post projection 20, . mse: 0.00327365, cost: 0.0107321301475,PSNR:24.84967343566734
+projecting!
+On iteration 1631. mse: 0.00327013, rel_cost_diff: 0.000957687443453,PSNR:24.854345617353655
+Change in mse between projections is : 7.48837e-09
+mse, projection: 0.00327048
+Post projection 21, . mse: 0.00327048, cost: 0.010665752925,PSNR:24.853888932432113
+projecting!
+On iteration 1641. mse: 0.00326699, rel_cost_diff: 0.000942519171928,PSNR:24.85852448860093
+Change in mse between projections is : 7.33064e-09
+mse, projection: 0.00326733
+Post projection 22, . mse: 0.00326733, cost: 0.0106006478891,PSNR:24.858066435622472
+projecting!
+On iteration 1651. mse: 0.00326387, rel_cost_diff: 0.000943433686154,PSNR:24.862665870399265
+Change in mse between projections is : 7.17602e-09
+mse, projection: 0.00326422
+Post projection 23, . mse: 0.00326422, cost: 0.0105367805809,PSNR:24.862206451119157
+projecting!
+On iteration 1661. mse: 0.00326079, rel_cost_diff: 0.000935138817092,PSNR:24.866771202074837
+Change in mse between projections is : 7.02926e-09
+mse, projection: 0.00326114
+Post projection 24, . mse: 0.00326114, cost: 0.0104741910473,PSNR:24.866310728195074
+projecting!
+On iteration 1671. mse: 0.00325774, rel_cost_diff: 0.000936490300911,PSNR:24.87084099835735
+Change in mse between projections is : 6.88725e-09
+mse, projection: 0.00325808
+Post projection 25, . mse: 0.00325808, cost: 0.0104127926752,PSNR:24.8703794720705
+projecting!
+On iteration 1680. mse: 0.00325503, rel_cost_diff: 0.000997704255746,PSNR:24.874449546186398
+Change in mse between projections is : 5.46752e-09
+mse, projection: 0.00325538
+Post projection 26, . mse: 0.00325538, cost: 0.0103633655235,PSNR:24.873986393816846
+projecting!
+On iteration 1690. mse: 0.00325203, rel_cost_diff: 0.000922272184039,PSNR:24.878450678844754
+Change in mse between projections is : 6.629e-09
+mse, projection: 0.00325238
+Post projection 27, . mse: 0.00325238, cost: 0.0103016486391,PSNR:24.877986788699747
+projecting!
+On iteration 1699. mse: 0.00324938, rel_cost_diff: 0.000990936742542,PSNR:24.881997717996207
+Change in mse between projections is : 5.25401e-09
+mse, projection: 0.00324973
+Post projection 28, . mse: 0.00324973, cost: 0.010253620334,PSNR:24.881532826529536
+On iteration 1701. mse: 0.00324927, cost: 0.00913612730801,PSNR:24.882135576906407
+projecting!
+On iteration 1708. mse: 0.00324675, rel_cost_diff: 0.000989667526385,PSNR:24.88551682371711
+Change in mse between projections is : 5.1502e-09
+mse, projection: 0.0032471
+Post projection 29, . mse: 0.0032471, cost: 0.0102043906227,PSNR:24.885049686967623
+projecting!
+On iteration 1717. mse: 0.00324414, rel_cost_diff: 0.000989376845523,PSNR:24.88900667894133
+Change in mse between projections is : 5.0545e-09
+mse, projection: 0.00324449
+Post projection 30, . mse: 0.00324449, cost: 0.0101555772126,PSNR:24.88853792005257
+projecting!
+On iteration 1726. mse: 0.00324155, rel_cost_diff: 0.000989422363139,PSNR:24.8924697063348
+Change in mse between projections is : 4.96423e-09
+mse, projection: 0.0032419
+Post projection 31, . mse: 0.0032419, cost: 0.0101074185222,PSNR:24.891999325906745
+Stopping rule loss: 15.4799852371
+projecting!
+On iteration 0. mse: 0.0237437, rel_cost_diff: 0.962965488847,PSNR:16.244508157305557
+mse, projection: 0.0237466
+Post projection 1, . mse: 0.0237466, cost: 15.9234600067,PSNR:16.24398283800147
+On iteration 1. mse: 0.0237466, cost: 15.9234600067,PSNR:16.24398283800147
+On iteration 101. mse: 0.0134073, cost: 1.01763057709,PSNR:18.726584844545823
+On iteration 201. mse: 0.010063, cost: 0.501422226429,PSNR:19.97273611530503
+On iteration 301. mse: 0.00830579, cost: 0.28167027235,PSNR:20.80619253471772
+On iteration 401. mse: 0.00727732, cost: 0.172685682774,PSNR:21.380284638800898
+On iteration 501. mse: 0.00662711, cost: 0.113541908562,PSNR:21.786757095929467
+On iteration 601. mse: 0.00618958, cost: 0.0792334005237,PSNR:22.083391082230946
+On iteration 701. mse: 0.00587938, cost: 0.058186057955,PSNR:22.30668620998488
+On iteration 801. mse: 0.00564935, cost: 0.0447133369744,PSNR:22.480012584894823
+On iteration 901. mse: 0.00547183, cost: 0.035758882761,PSNR:22.618677900431262
+On iteration 1001. mse: 0.00532998, cost: 0.0295976046473,PSNR:22.732742648127186
+On iteration 1101. mse: 0.00521319, cost: 0.0252295266837,PSNR:22.82896845229354
+On iteration 1201. mse: 0.00511451, cost: 0.0220556780696,PSNR:22.911963076722955
+On iteration 1301. mse: 0.00502926, cost: 0.0196831058711,PSNR:22.984958560422548
+projecting!
+On iteration 1330. mse: 0.0050058, rel_cost_diff: 0.000996292639934,PSNR:23.00526572496876
+Change in mse between projections is : 0.0166761
+mse, projection: 0.00500601
+Post projection 2, . mse: 0.00500601, cost: 0.0218939334154,PSNR:23.005082312988257
+projecting!
+On iteration 1346. mse: 0.00499377, rel_cost_diff: 0.000997787936064,PSNR:23.015713593836793
+Change in mse between projections is : 5.79102e-08
+mse, projection: 0.00499399
+Post projection 3, . mse: 0.00499399, cost: 0.0216044504195,PSNR:23.01552083108403
+projecting!
+On iteration 1360. mse: 0.00498351, rel_cost_diff: 0.000994973300462,PSNR:23.0246426965472
+Change in mse between projections is : 4.21571e-08
+mse, projection: 0.00498374
+Post projection 4, . mse: 0.00498374, cost: 0.0213597640395,PSNR:23.02444304446885
+projecting!
+On iteration 1373. mse: 0.00497419, rel_cost_diff: 0.00099948475346,PSNR:23.032772919502985
+Change in mse between projections is : 3.48526e-08
+mse, projection: 0.00497443
+Post projection 5, . mse: 0.00497443, cost: 0.0211393777281,PSNR:23.032569234394238
+projecting!
+On iteration 1386. mse: 0.00496505, rel_cost_diff: 0.000992000523416,PSNR:23.040766867140693
+Change in mse between projections is : 3.34903e-08
+mse, projection: 0.00496529
+Post projection 6, . mse: 0.00496529, cost: 0.0209222622216,PSNR:23.040557919221733
+projecting!
+On iteration 1398. mse: 0.00495675, rel_cost_diff: 0.000992352801434,PSNR:23.0480304888421
+Change in mse between projections is : 2.76601e-08
+mse, projection: 0.00495699
+Post projection 7, . mse: 0.00495699, cost: 0.0207307767123,PSNR:23.047817927350106
+On iteration 1401. mse: 0.00495538, cost: 0.0180115178227,PSNR:23.049233840147227
+projecting!
+On iteration 1410. mse: 0.00494858, rel_cost_diff: 0.00098424907332,PSNR:23.055190215363453
+Change in mse between projections is : 2.67396e-08
+mse, projection: 0.00494883
+Post projection 8, . mse: 0.00494883, cost: 0.020541569218,PSNR:23.054974442611233
+projecting!
+On iteration 1421. mse: 0.00494121, rel_cost_diff: 0.000997213633485,PSNR:23.061663885848034
+Change in mse between projections is : 2.18816e-08
+mse, projection: 0.00494146
+Post projection 9, . mse: 0.00494146, cost: 0.0203776173294,PSNR:23.061444107891504
+projecting!
+On iteration 1432. mse: 0.00493395, rel_cost_diff: 0.000996322349604,PSNR:23.068054585962386
+Change in mse between projections is : 2.12397e-08
+mse, projection: 0.0049342
+Post projection 10, . mse: 0.0049342, cost: 0.0202144104987,PSNR:23.067832025197184
+projecting!
+On iteration 1443. mse: 0.00492678, rel_cost_diff: 0.000988069420758,PSNR:23.074368502420338
+Change in mse between projections is : 2.06537e-08
+mse, projection: 0.00492704
+Post projection 11, . mse: 0.00492704, cost: 0.0200537983328,PSNR:23.074142744655028
+projecting!
+On iteration 1454. mse: 0.00491971, rel_cost_diff: 0.000978793355317,PSNR:23.080608985852162
+Change in mse between projections is : 2.01018e-08
+mse, projection: 0.00491996
+Post projection 12, . mse: 0.00491996, cost: 0.0198964178562,PSNR:23.080380848224834
+projecting!
+On iteration 1465. mse: 0.00491272, rel_cost_diff: 0.00097077968532,PSNR:23.08678105761283
+Change in mse between projections is : 1.95798e-08
+mse, projection: 0.00491298
+Post projection 13, . mse: 0.00491298, cost: 0.0197422783822,PSNR:23.08655094901085
+projecting!
+On iteration 1475. mse: 0.00490645, rel_cost_diff: 0.000986067055217,PSNR:23.092328758210275
+Change in mse between projections is : 1.58252e-08
+mse, projection: 0.00490671
+Post projection 14, . mse: 0.00490671, cost: 0.0196125134826,PSNR:23.092095470377657
+projecting!
+On iteration 1485. mse: 0.00490025, rel_cost_diff: 0.000986769764991,PSNR:23.097815045560743
+Change in mse between projections is : 1.54286e-08
+mse, projection: 0.00490052
+Post projection 15, . mse: 0.00490052, cost: 0.0194822438061,PSNR:23.097579812129098
+projecting!
+On iteration 1495. mse: 0.00489413, rel_cost_diff: 0.000983185570712,PSNR:23.10324546275407
+Change in mse between projections is : 1.50615e-08
+mse, projection: 0.0048944
+Post projection 16, . mse: 0.0048944, cost: 0.0193533711135,PSNR:23.1030086954247
+On iteration 1501. mse: 0.00489112, cost: 0.0165366474539,PSNR:23.10592104540529
+projecting!
+On iteration 1505. mse: 0.00488807, rel_cost_diff: 0.000982685059801,PSNR:23.108622273689
+Change in mse between projections is : 1.4715e-08
+mse, projection: 0.00488834
+Post projection 17, . mse: 0.00488834, cost: 0.0192266255617,PSNR:23.1083831445198
+projecting!
+On iteration 1515. mse: 0.00488208, rel_cost_diff: 0.000978023393389,PSNR:23.11394817029765
+Change in mse between projections is : 1.43828e-08
+mse, projection: 0.00488236
+Post projection 18, . mse: 0.00488236, cost: 0.019102031365,PSNR:23.11370626241824
+projecting!
+On iteration 1525. mse: 0.00487616, rel_cost_diff: 0.000963600912031,PSNR:23.119223371638956
+Change in mse between projections is : 1.40647e-08
+mse, projection: 0.00487643
+Post projection 19, . mse: 0.00487643, cost: 0.0189798176289,PSNR:23.11897992560049
+projecting!
+On iteration 1535. mse: 0.00487029, rel_cost_diff: 0.000962715740211,PSNR:23.124451006768858
+Change in mse between projections is : 1.37601e-08
+mse, projection: 0.00487057
+Post projection 20, . mse: 0.00487057, cost: 0.018859744072,PSNR:23.12420560665651
+projecting!
+On iteration 1544. mse: 0.00486507, rel_cost_diff: 0.000990436876153,PSNR:23.129108763112164
+Change in mse between projections is : 1.09623e-08
+mse, projection: 0.00486535
+Post projection 21, . mse: 0.00486535, cost: 0.0187631268054,PSNR:23.128861437028057
+projecting!
+On iteration 1553. mse: 0.00485991, rel_cost_diff: 0.000994007607684,PSNR:23.133722000726262
+Change in mse between projections is : 1.07139e-08
+mse, projection: 0.00486019
+Post projection 22, . mse: 0.00486019, cost: 0.0186642147601,PSNR:23.133471499064097
+projecting!
+On iteration 1563. mse: 0.00485422, rel_cost_diff: 0.000966198846813,PSNR:23.13880797771772
+Change in mse between projections is : 1.29561e-08
+mse, projection: 0.0048545
+Post projection 23, . mse: 0.0048545, cost: 0.0185444001108,PSNR:23.138556765941082
+projecting!
+On iteration 1572. mse: 0.00484915, rel_cost_diff: 0.000984090108198,PSNR:23.14334437072762
+Change in mse between projections is : 1.02805e-08
+mse, projection: 0.00484943
+Post projection 24, . mse: 0.00484943, cost: 0.0184512101114,PSNR:23.143091228313963
+projecting!
+On iteration 1581. mse: 0.00484413, rel_cost_diff: 0.000993577135481,PSNR:23.147841253750038
+Change in mse between projections is : 1.00643e-08
+mse, projection: 0.00484442
+Post projection 25, . mse: 0.00484442, cost: 0.0183566007763,PSNR:23.14758534434326
+projecting!
+On iteration 1590. mse: 0.00483916, rel_cost_diff: 0.000990068107322,PSNR:23.152301006504196
+Change in mse between projections is : 9.86122e-09
+mse, projection: 0.00483945
+Post projection 26, . mse: 0.00483945, cost: 0.0182627700269,PSNR:23.152043998403794
+projecting!
+On iteration 1599. mse: 0.00483423, rel_cost_diff: 0.000988353642013,PSNR:23.15672518306767
+Change in mse between projections is : 9.67671e-09
+mse, projection: 0.00483452
+Post projection 27, . mse: 0.00483452, cost: 0.0181698910892,PSNR:23.15646623977517
+On iteration 1601. mse: 0.00483372, cost: 0.0159436576068,PSNR:23.157184960494206
+projecting!
+On iteration 1608. mse: 0.00482935, rel_cost_diff: 0.000985866374853,PSNR:23.161115344994254
+Change in mse between projections is : 9.49443e-09
+mse, projection: 0.00482964
+Post projection 28, . mse: 0.00482964, cost: 0.0180782824755,PSNR:23.160854883611538
+projecting!
+On iteration 1617. mse: 0.00482451, rel_cost_diff: 0.000980136319115,PSNR:23.165471803662534
+Change in mse between projections is : 9.31653e-09
+mse, projection: 0.0048248
+Post projection 29, . mse: 0.0048248, cost: 0.0179879777133,PSNR:23.165209823417293
+projecting!
+On iteration 1626. mse: 0.0048197, rel_cost_diff: 0.000977867422617,PSNR:23.16979613149976
+Change in mse between projections is : 9.14337e-09
+mse, projection: 0.00482
+Post projection 30, . mse: 0.00482, cost: 0.0178992189467,PSNR:23.169532211982435
+projecting!
+On iteration 1635. mse: 0.00481494, rel_cost_diff: 0.00097374596176,PSNR:23.17408822808979
+Change in mse between projections is : 8.97699e-09
+mse, projection: 0.00481524
+Post projection 31, . mse: 0.00481524, cost: 0.0178117640316,PSNR:23.173823207646123
+Stopping rule loss: 4.96004009247
+projecting!
+On iteration 0. mse: 0.0160216, rel_cost_diff: 0.60432795441,PSNR:17.952948727315196
+mse, projection: 0.0160246
+Post projection 1, . mse: 0.0160246, cost: 5.4087677002,PSNR:17.95212682043805
+On iteration 1. mse: 0.0160246, cost: 5.4087677002,PSNR:17.95212682043805
+On iteration 101. mse: 0.00986759, cost: 0.686026036739,PSNR:20.05788948292264
+On iteration 201. mse: 0.00752919, cost: 0.357072591782,PSNR:21.232515124588318
+On iteration 301. mse: 0.00623104, cost: 0.212009176612,PSNR:22.05439672083287
+On iteration 401. mse: 0.00542543, cost: 0.137417212129,PSNR:22.65565507792262
+On iteration 501. mse: 0.00488557, cost: 0.095362663269,PSNR:23.11084581235435
+On iteration 601. mse: 0.00450133, cost: 0.0700214058161,PSNR:23.466593972559338
+On iteration 701. mse: 0.00421378, cost: 0.0539336465299,PSNR:23.75327741576357
+On iteration 801. mse: 0.00398942, cost: 0.0432621352375,PSNR:23.990901996348335
+On iteration 901. mse: 0.00380813, cost: 0.0359014645219,PSNR:24.192879637077557
+On iteration 1001. mse: 0.00365727, cost: 0.0306456405669,PSNR:24.36842977624732
+On iteration 1101. mse: 0.00352876, cost: 0.0267656650394,PSNR:24.523780155287334
+On iteration 1201. mse: 0.00341718, cost: 0.0238137003034,PSNR:24.66332657370485
+projecting!
+On iteration 1260. mse: 0.00335675, rel_cost_diff: 0.000999357686619,PSNR:24.740811973356966
+Change in mse between projections is : 0.0104279
+mse, projection: 0.00335762
+Post projection 2, . mse: 0.00335762, cost: 0.0260471142828,PSNR:24.739680380332704
+projecting!
+On iteration 1269. mse: 0.00334875, rel_cost_diff: 0.000985282940067,PSNR:24.75117053937644
+Change in mse between projections is : 2.26209e-08
+mse, projection: 0.00334963
+Post projection 3, . mse: 0.00334963, cost: 0.0258731693029,PSNR:24.7500253769573
+projecting!
+On iteration 1278. mse: 0.0033409, rel_cost_diff: 0.000995260241604,PSNR:24.761359859381056
+Change in mse between projections is : 2.09192e-08
+mse, projection: 0.00334179
+Post projection 4, . mse: 0.00334179, cost: 0.0256915446371,PSNR:24.76020474540388
+projecting!
+On iteration 1287. mse: 0.00333318, rel_cost_diff: 0.000991152319331,PSNR:24.77141811900782
+Change in mse between projections is : 1.99488e-08
+mse, projection: 0.00333407
+Post projection 5, . mse: 0.00333407, cost: 0.0255095455796,PSNR:24.77025426135398
+projecting!
+On iteration 1296. mse: 0.00332555, rel_cost_diff: 0.000982373082546,PSNR:24.78136320209846
+Change in mse between projections is : 1.9245e-08
+mse, projection: 0.00332645
+Post projection 6, . mse: 0.00332645, cost: 0.0253289956599,PSNR:24.7801930288339
+On iteration 1301. mse: 0.00332255, cost: 0.0215460881591,PSNR:24.78529040516208
+projecting!
+On iteration 1305. mse: 0.00331802, rel_cost_diff: 0.000975984893451,PSNR:24.791207380430333
+Change in mse between projections is : 1.87105e-08
+mse, projection: 0.00331892
+Post projection 7, . mse: 0.00331892, cost: 0.0251500923187,PSNR:24.790032114728028
+projecting!
+On iteration 1314. mse: 0.00331058, rel_cost_diff: 0.000971215160319,PSNR:24.800959688704317
+Change in mse between projections is : 1.82414e-08
+mse, projection: 0.00331148
+Post projection 8, . mse: 0.00331148, cost: 0.0249731410295,PSNR:24.79977964380209
+projecting!
+On iteration 1322. mse: 0.00330411, rel_cost_diff: 0.0009941074789,PSNR:24.80945881885187
+Change in mse between projections is : 1.41024e-08
+mse, projection: 0.00330501
+Post projection 9, . mse: 0.00330501, cost: 0.0248280372471,PSNR:24.808272179344677
+projecting!
+On iteration 1331. mse: 0.00329683, rel_cost_diff: 0.000957770370372,PSNR:24.81903876866359
+Change in mse between projections is : 1.74593e-08
+mse, projection: 0.00329773
+Post projection 10, . mse: 0.00329773, cost: 0.0246514081955,PSNR:24.81784858918072
+projecting!
+On iteration 1339. mse: 0.00329049, rel_cost_diff: 0.000986064658679,PSNR:24.827393613382938
+Change in mse between projections is : 1.34615e-08
+mse, projection: 0.0032914
+Post projection 11, . mse: 0.0032914, cost: 0.024509485811,PSNR:24.826198991859343
+projecting!
+On iteration 1347. mse: 0.00328422, rel_cost_diff: 0.000986057829545,PSNR:24.83567866040793
+Change in mse between projections is : 1.31732e-08
+mse, projection: 0.00328513
+Post projection 12, . mse: 0.00328513, cost: 0.0243661683053,PSNR:24.834479295618852
+projecting!
+On iteration 1355. mse: 0.00327801, rel_cost_diff: 0.000982480861779,PSNR:24.843898414431504
+Change in mse between projections is : 1.29131e-08
+mse, projection: 0.00327892
+Post projection 13, . mse: 0.00327892, cost: 0.0242240484804,PSNR:24.842695544265148
+projecting!
+On iteration 1363. mse: 0.00327186, rel_cost_diff: 0.000974796938629,PSNR:24.852056182749646
+Change in mse between projections is : 1.26653e-08
+mse, projection: 0.00327277
+Post projection 14, . mse: 0.00327277, cost: 0.0240832511336,PSNR:24.85084950648195
+projecting!
+On iteration 1371. mse: 0.00326576, rel_cost_diff: 0.000980791860182,PSNR:24.860154992117852
+Change in mse between projections is : 1.24252e-08
+mse, projection: 0.00326667
+Post projection 15, . mse: 0.00326667, cost: 0.0239442661405,PSNR:24.858944516122563
+projecting!
+On iteration 1379. mse: 0.00325972, rel_cost_diff: 0.000973315166265,PSNR:24.868195724334193
+Change in mse between projections is : 1.21989e-08
+mse, projection: 0.00326063
+Post projection 16, . mse: 0.00326063, cost: 0.0238072276115,PSNR:24.86698238521403
+projecting!
+On iteration 1387. mse: 0.00325373, rel_cost_diff: 0.000966280076993,PSNR:24.876179892918245
+Change in mse between projections is : 1.19718e-08
+mse, projection: 0.00325465
+Post projection 17, . mse: 0.00325465, cost: 0.0236721150577,PSNR:24.87496307868706
+projecting!
+On iteration 1395. mse: 0.0032478, rel_cost_diff: 0.000958661844949,PSNR:24.884108714688686
+Change in mse between projections is : 1.17429e-08
+mse, projection: 0.00324871
+Post projection 18, . mse: 0.00324871, cost: 0.0235391464084,PSNR:24.88288936597572
+On iteration 1401. mse: 0.00324436, cost: 0.019807273522,PSNR:24.888708711980172
+projecting!
+On iteration 1403. mse: 0.00324191, rel_cost_diff: 0.000954050123433,PSNR:24.89198466632743
+Change in mse between projections is : 1.15374e-08
+mse, projection: 0.00324283
+Post projection 19, . mse: 0.00324283, cost: 0.0234082695097,PSNR:24.89076185735394
+projecting!
+On iteration 1411. mse: 0.00323608, rel_cost_diff: 0.000944915821336,PSNR:24.899807745906713
+Change in mse between projections is : 1.1334e-08
+mse, projection: 0.00323699
+Post projection 20, . mse: 0.00323699, cost: 0.0232792161405,PSNR:24.89858242019615
+projecting!
+On iteration 1419. mse: 0.00323029, rel_cost_diff: 0.000942443075254,PSNR:24.90757889359143
+Change in mse between projections is : 1.1133e-08
+mse, projection: 0.00323121
+Post projection 21, . mse: 0.00323121, cost: 0.0231522042304,PSNR:24.906350434846875
+projecting!
+On iteration 1427. mse: 0.00322456, rel_cost_diff: 0.000935902225789,PSNR:24.915298432076952
+Change in mse between projections is : 1.0944e-08
+mse, projection: 0.00322547
+Post projection 22, . mse: 0.00322547, cost: 0.0230270046741,PSNR:24.91406716113697
+projecting!
+On iteration 1435. mse: 0.00321887, rel_cost_diff: 0.000932568620622,PSNR:24.92296763166336
+Change in mse between projections is : 1.07549e-08
+mse, projection: 0.00321978
+Post projection 23, . mse: 0.00321978, cost: 0.0229039043188,PSNR:24.921733556713384
+projecting!
+On iteration 1443. mse: 0.00321323, rel_cost_diff: 0.000926576132052,PSNR:24.93058745974619
+Change in mse between projections is : 1.05709e-08
+mse, projection: 0.00321414
+Post projection 24, . mse: 0.00321414, cost: 0.0227825995535,PSNR:24.92935027418045
+projecting!
+On iteration 1451. mse: 0.00320763, rel_cost_diff: 0.000923259109545,PSNR:24.93815731701297
+Change in mse between projections is : 1.03987e-08
+mse, projection: 0.00320855
+Post projection 25, . mse: 0.00320855, cost: 0.0226631071419,PSNR:24.936917973430507
+projecting!
+On iteration 1459. mse: 0.00320208, rel_cost_diff: 0.000919523275709,PSNR:24.945679128920503
+Change in mse between projections is : 1.02279e-08
+mse, projection: 0.003203
+Post projection 26, . mse: 0.003203, cost: 0.0225452948362,PSNR:24.944437005899495
+projecting!
+On iteration 1466. mse: 0.00319734, rel_cost_diff: 0.000998111669943,PSNR:24.9521082280984
+Change in mse between projections is : 7.66356e-09
+mse, projection: 0.00319826
+Post projection 27, . mse: 0.00319826, cost: 0.0224580336362,PSNR:24.95086173589415
+projecting!
+On iteration 1474. mse: 0.00319188, rel_cost_diff: 0.000925852040755,PSNR:24.959528809983684
+Change in mse between projections is : 9.93315e-09
+mse, projection: 0.0031928
+Post projection 28, . mse: 0.0031928, cost: 0.022336371243,PSNR:24.958280503146906
+projecting!
+On iteration 1481. mse: 0.00318722, rel_cost_diff: 0.00099409066662,PSNR:24.965874715137772
+Change in mse between projections is : 7.40913e-09
+mse, projection: 0.00318814
+Post projection 29, . mse: 0.00318814, cost: 0.0222501382232,PSNR:24.964622045877217
+projecting!
+On iteration 1489. mse: 0.00318185, rel_cost_diff: 0.000920105633428,PSNR:24.973205105133317
+Change in mse between projections is : 9.64574e-09
+mse, projection: 0.00318277
+Post projection 30, . mse: 0.00318277, cost: 0.0221303384751,PSNR:24.971950955435148
+projecting!
+On iteration 1496. mse: 0.00317726, rel_cost_diff: 0.000999287678451,PSNR:24.97947269913402
+Change in mse between projections is : 7.17725e-09
+mse, projection: 0.00317818
+Post projection 31, . mse: 0.00317818, cost: 0.0220460947603,PSNR:24.97821546580239
+--------------------------------------------------------------
+Begin PBS Epilogue Wed Aug 16 11:17:46 CDT 2017 1502900266
+Job ID:			3217897[128].mgt2.cluster
+Username:		shenghuahe
+Group:			manastasio
+Job Name:		Experiment_4_64_0-128
+Limits:           	mem=4gb,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=03:59:00
+Resources:		cput=00:46:31,energy_used=0,mem=1030380kb,vmem=2866676kb,walltime=00:46:55
+Nodes:	        	gpu06
+End PBS Epilogue Wed Aug 16 11:17:46 CDT 2017 1502900266
+--------------------------------------------------------------

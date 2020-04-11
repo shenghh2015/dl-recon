@@ -1,0 +1,51 @@
+--------------------------------------------------------------
+Begin PBS Prologue Sat Dec  2 11:20:51 CST 2017 1512235251
+Job ID:			3756311.mgt2.cluster
+Username:		shenghuahe
+Group:			manastasio
+Nodes:			gpu19
+End PBS Prologue Sat Dec  2 11:20:51 CST 2017 1512235251
+--------------------------------------------------------------
+filename:       /lib/modules/2.6.32-642.11.1.el6.centos.plus.x86_64/kernel/drivers/video/nvidia.ko
+alias:          char-major-195-*
+version:        367.48
+supported:      external
+license:        NVIDIA
+srcversion:     C3D41A53C513AE463DF7EB7
+alias:          pci:v000010DEd00000E00sv*sd*bc04sc80i00*
+alias:          pci:v000010DEd*sv*sd*bc03sc02i00*
+alias:          pci:v000010DEd*sv*sd*bc03sc00i00*
+depends:        i2c-core
+vermagic:       2.6.32-642.11.1.el6.centos.plus.x86_64 SMP mod_unload modversions 
+parm:           NVreg_Mobile:int
+parm:           NVreg_ResmanDebugLevel:int
+parm:           NVreg_RmLogonRC:int
+parm:           NVreg_ModifyDeviceFiles:int
+parm:           NVreg_DeviceFileUID:int
+parm:           NVreg_DeviceFileGID:int
+parm:           NVreg_DeviceFileMode:int
+parm:           NVreg_UpdateMemoryTypes:int
+parm:           NVreg_InitializeSystemMemoryAllocations:int
+parm:           NVreg_UsePageAttributeTable:int
+parm:           NVreg_MapRegistersEarly:int
+parm:           NVreg_RegisterForACPIEvents:int
+parm:           NVreg_CheckPCIConfigSpace:int
+parm:           NVreg_EnablePCIeGen3:int
+parm:           NVreg_EnableMSI:int
+parm:           NVreg_TCEBypassMode:int
+parm:           NVreg_UseThreadedInterrupts:int
+parm:           NVreg_MemoryPoolSize:int
+parm:           NVreg_RegistryDwords:charp
+parm:           NVreg_RmMsg:charp
+parm:           NVreg_AssignGpus:charp
+--------------------------------------------------------------
+Begin PBS Epilogue Sat Dec  2 11:20:59 CST 2017 1512235259
+Job ID:			3756311.mgt2.cluster
+Username:		shenghuahe
+Group:			manastasio
+Job Name:		check_nvidia_drv_ver
+Limits:           	mem=4gb,neednodes=1:ppn=1:gpus=1,nodes=1:ppn=1:gpus=1,walltime=01:00:00
+Resources:		cput=00:00:00,energy_used=0,mem=0kb,vmem=0kb,walltime=00:00:06
+Nodes:	        	gpu19
+End PBS Epilogue Sat Dec  2 11:20:59 CST 2017 1512235259
+--------------------------------------------------------------
